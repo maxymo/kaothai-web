@@ -1,7 +1,11 @@
 #_data/navbar.yml
 - name: Home
   link: /
-- name: About
-  link: /about
 - name: Menu
-  link: /menu
+  link: /#menu
+- name: Truck Locator
+  link: /#locator
+- name: Events
+  link: /#events
+- name: Contact
+  link: /#contact
