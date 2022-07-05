@@ -2,13 +2,75 @@
 layout: default
 title: Kao Thai - Authentic Street Food
 ---
-<div class="container-fluid banner">
-    <div class="row" style="background-color: bisque;">
-        <div class="col">
-            <p>Authentic Street Food</p>
-        </div>
-        <div class="col">
-            <img src="/assets/img/truck.png" alt="Kao Thai Food Truck">
+<header class="banner">
+    {% include navbar.html %}
+
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col text-center">
+                <img src="/assets/img/truck.png" alt="Kao Thai Food Truck">
+            </div>
+            <div class="col text-center">
+                <h1 style="color: white">Comming Soon!</h1>
+            </div>
         </div>
     </div>
-</div>
+</header>
+
+<section id="menu">
+    <div class="container">
+        <h1 class="my-5 text-center">Our Menu!</h1>
+
+        <div class="row">
+
+            {% for item in site.data.foodmenu %}
+            <div class="col-lg-6">
+                <div class="card mb-3 bg-transparent border-0">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img src="{{ item.photo }}" class="card-img mt-3" alt="{{ item.name }}">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <div class="card-title border-bottom d-flex">
+                                    <h5 class="">{{ item.name }} </h5>
+                                    <span class="fs-6 ms-auto">{{ item.price }}</span>
+                                </div>
+                                <p class="card-text">{{ item.description }}</p>
+                                <p class="card-text"><small class="text-muted">{{ item.meat }}</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+
+<section id="location">
+    <div class="container">
+
+        <h1 class="my-5 text-center">Truck Locator</h1>
+        <div id="map"></div>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD25p7NaCMvnrdt9cOZMUyehqOanAQc_NY&callback=initMap&v=weekly"
+            defer>
+            </script>
+    </div>
+</section>
+
+<section id="events">
+    <div class="container">
+
+        <h1 class="my-5 text-center">Events</h1>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+
+        <h1 class="my-5 text-center">Contact</h1>
+    </div>
+</section>

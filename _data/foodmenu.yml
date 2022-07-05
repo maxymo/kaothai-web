@@ -1,0 +1,31 @@
+#_data/foodmenu.yml
+- name: Pad Thai
+  photo: /assets/img/menu-padthai.png
+  price: €-
+  description: Stir-fried rice noddles with eggs and vegetables in a home-made tamarind based sauce. Garnish with lime, chillis and crushed peanuts.
+  meat: Chicken, Prawns or Vegetarian (Tofu).
+- name: Thai Green Curry
+  photo: /assets/img/menu-green-curry.png
+  price: €-
+  description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+  meat: Chicken, Prawns or Vegetarian (Tofu).
+- name: Fried Rice
+  photo: /assets/img/menu-fried-rice.png
+  price: €-
+  description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+  meat: Chicken, Prawns or Vegetarian (Tofu).
+- name: Stir-fry Cashews
+  photo: /assets/img/menu-stirfried-cashews.png
+  price: €-
+  description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+  meat: Chicken, Prawns or Vegetarian (Tofu).
+- name: Thai Curry Puffs
+  photo: /assets/img/menu-puffs.png
+  price: €-
+  description: Homemade puffs filled with potatoes, shredded chicken and spices.
+  meat: Chicken
+- name: Spring Rolls
+  photo: /assets/img/menu-springrolls.png
+  price: €-
+  description: Homemade spring rolls filled with vermicelli rice noddles, vegetables and meat of choice.
+  meat: Chicken or Vegetarian.
