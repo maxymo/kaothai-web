@@ -53,7 +53,10 @@ title: Kao Thai - Authentic Street Food
     <div class="container">
 
         <h1 class="my-5 text-center">Truck Locator</h1>
-        <div id="map"></div>
+        <div class="container">
+            <div id="map"></div>
+        </div>
+
         <script
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD25p7NaCMvnrdt9cOZMUyehqOanAQc_NY&callback=initMap&v=weekly"
             defer>
@@ -72,5 +75,34 @@ title: Kao Thai - Authentic Street Food
     <div class="container">
 
         <h1 class="my-5 text-center">Contact</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>We would love to hear from you</p>
+                    <p>For private events, questions or suggestions please drop us a message in the contact form or
+                        through any of the contact options below.</p>
+                    Tel: <a href="tel:+353831872130">083 187 2130</a><br>
+                    Email: <a href="mailto:eat@kaothai.ie">eat@kaothai.ie</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="txtName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="txtName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtMessage" class="form-label">Your message</label>
+                        <textarea class="form-control" id="txtMessage" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="submit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
