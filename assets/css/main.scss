@@ -1,6 +1,13 @@
 ---
 ---
-@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css);
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css);
+
+/*
+    Colour Palette
+
+    Orange: #ef4823
+    Light background: #f2f2f4
+*/
 
 .banner {
     height: 100vh;
@@ -12,6 +19,10 @@
 
 body{
     background-color: #f2f2f4;
+}
+
+.nav-link {
+    font-weight: bold;
 }
 
 #map {

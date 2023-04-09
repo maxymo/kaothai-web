@@ -7,11 +7,12 @@ title: Kao Thai - Authentic Street Food
 
     <div class="container mt-5">
         <div class="row align-items-center">
-            <div class="col text-center">
-                <img src="/assets/img/truck.png" alt="Kao Thai Food Truck">
+            <div class="col-12 col-md-6 text-center">
+                <img class="img-fluid" src="/assets/img/truck.png" alt="Kao Thai Food Truck">
             </div>
             <div class="col text-center">
-                <h1 style="color: white">Comming Soon!</h1>
+                <h1 style="color: white">Opening on 15th April 2023</h1>
+                <h1 style="color: white">at Rivervalley Park, Swords</h1>
             </div>
         </div>
     </div>
@@ -52,7 +53,7 @@ title: Kao Thai - Authentic Street Food
 <section id="location">
     <div class="container">
 
-        <h1 class="my-5 text-center">Truck Locator</h1>
+        <h1 class="my-5 text-center">Truck Locator (soon)</h1>
         <div class="container">
             <div id="map"></div>
         </div>
@@ -68,6 +69,25 @@ title: Kao Thai - Authentic Street Food
     <div class="container">
 
         <h1 class="my-5 text-center">Events</h1>
+
+        <p>
+            Looking for a unique and flavorful catering option for your next event? Look no further 
+            than Kao Thai our authentic Thai street food! Our skilled chef prepare fresh and 
+            delicious dishes using traditional recipes and ingredients straight from Thailand. 
+        </p>
+        <p>
+            Whether you're planning a birthday celebration, corporate event, or party, we offer a wide 
+            variety of menu options to satisfy all your guests' cravings. From savory noodle dishes 
+            to spicy curries and refreshing salads, our food is sure to impress and leave your guests 
+            asking for more.
+        </p>
+        <p>
+            So why settle for bland and boring catering when you can add a touch of excitement and 
+            adventure to your event with our mouthwatering Thai street food? 
+        </p>
+        <p>
+            <b>Contact us today to book our food truck for your next occasion!</b>
+        </p>
     </div>
 </section>
 
@@ -85,21 +105,34 @@ title: Kao Thai - Authentic Street Food
                     Email: <a href="mailto:eat@kaothai.ie">eat@kaothai.ie</a>
                 </div>
                 <div class="col-md-6">
-                    <div class="mb-3">
-                        <label for="txtName" class="form-label">Your Name</label>
-                        <input type="text" class="form-control" id="txtName">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtEmail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtMessage" class="form-label">Your message</label>
-                        <textarea class="form-control" id="txtMessage" rows="3"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <input class="form-control" type="submit" />
-                    </div>
+                    <form accept-charset="UTF-8" action="https://getform.io/f/54836bff-da41-44c7-b3be-5f7815ab298f"
+                        method="POST" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="txtName" class="form-label">Your Name*</label>
+                            <input type="text" name="name" class="form-control" id="txtName" required maxlength="40">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtEmail" class="form-label">Email address*</label>
+                            <input type="email" name="email" class="form-control" id="txtEmail"
+                                placeholder="name@example.com" required maxlength="50">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtEmail" class="form-label">Phone Number</label>
+                            <input type="text" name="phone" class="form-control" id="txtPhone" maxlength="20">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtMessage" class="form-label">Your message*</label>
+                            <textarea class="form-control" name="message" id="txtMessage" rows="3" required
+                                maxlength="5000"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+                        </div>
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+                        <div class="mb-3">
+                            <input class="form-control" type="submit" />
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
