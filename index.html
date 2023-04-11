@@ -2,9 +2,12 @@
 layout: default
 title: Kao Thai - Authentic Street Food
 ---
-<header class="banner">
-    {% include navbar.html %}
 
+<header id="header" class="header">
+    {% include navbar.html %}
+</header>
+
+<section id="banner" class="banner">
     <div class="container mt-5">
         <div class="row align-items-center">
             <div class="col-12 col-md-6 text-center">
@@ -16,7 +19,7 @@ title: Kao Thai - Authentic Street Food
             </div>
         </div>
     </div>
-</header>
+</section>
 
 <section id="menu">
     <div class="container">
@@ -139,3 +142,18 @@ title: Kao Thai - Authentic Street Food
 
     </div>
 </section>
+
+<script>
+    window.addEventListener('scroll', function () {
+        const header = document.getElementById('header');
+
+        if (window.scrollY > 120) {
+            header.classList.add('fixed');
+            header.classList.add('compact');
+        } else {
+            header.classList.remove('fixed');
+            header.classList.remove('compact');
+        }
+    });
+
+</script>

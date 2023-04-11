@@ -9,14 +9,6 @@
     Light background: #f2f2f4
 */
 
-.banner {
-    height: 100vh;
-    background: url(/assets/img/banner3.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-}
-
 body{
     background-color: #f2f2f4;
 }
@@ -31,3 +23,42 @@ body{
     width: 100%;
     /* The width is the width of the web page */
   }
+
+  .compact-menu {
+    background-color: black;
+  }
+
+  .header {
+    position: absolute;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: transparent;
+    
+}
+
+.header.fixed {
+    position: fixed;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 1.3s, padding 1.3s;
+    transform: translateY(0);
+}
+
+.header.compact #logo {
+    height: 60px;
+}
+
+.banner {
+    height: 100vh;
+    background: url(/assets/img/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+// .banner {
+//     min-height: 2000px;
+//     background-image: url('/assets/img/banner3.jpg');
+//     background-size: cover;
+// }

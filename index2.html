@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            position: absolute;
+            width: 100%;
+            padding: 20px;
+            background-color: transparent;
+            transition: background-color 0.9s;
+        }
+
+        .header.fixed {
+            position: fixed;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .content {
+            min-height: 2000px;
+            background-image: url('/assets/img/banner3.jpg');
+            background-size: cover;
+        }
+    </style>
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.getElementById('header');
+
+            if (window.scrollY > 0) {
+                header.classList.add('fixed');
+            } else {
+                header.classList.remove('fixed');
+            }
+        });
+
+    </script>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <nav>
+            <!-- Your navigation menu here -->
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <!-- Your page content here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
