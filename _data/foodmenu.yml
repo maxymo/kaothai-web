@@ -1,31 +1,37 @@
 #_data/foodmenu.yml
 - name: Pad Thai
-  photo: /assets/img/menu-padthai.png
+  photo: /assets/img/menu-padthai-min.png
   price: €-
-  description: Stir-fried rice noddles with eggs and vegetables in a home-made tamarind based sauce. Garnish with lime, chillis and crushed peanuts.
+  description: Delight in our authentic Pad Thai, featuring rice noodles stir-fried with succulent proteins, crisp bean sprouts, and crushed peanuts, all perfectly balanced with tangy tamarind sauce. Experience a Thai favorite that's both satisfying and unforgettable.
   meat: Chicken, Prawns or Vegetarian (Tofu).
 - name: Thai Green Curry
-  photo: /assets/img/menu-green-curry.png
+  photo: /assets/img/menu-green-curry-min.png
   price: €-
-  description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+  description: Immerse yourself in the rich flavors of our Thai Green Curry, a fragrant blend of creamy coconut milk, aromatic green curry paste, tender proteins, and garden-fresh vegetables. This sumptuous dish offers a harmonious taste adventure that's truly irresistible.
   meat: Chicken, Prawns or Vegetarian (Tofu).
-- name: Fried Rice
-  photo: /assets/img/menu-fried-rice.png
+- name: Thai Fried Rice
+  photo: /assets/img/menu-fried-rice-min.png
   price: €-
-  description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+  description: Savor our vibrant, flavor-packed Thai fried rice, skillfully combining jasmine rice, tender proteins, fresh veggies, and exotic spices. This delightful dish, garnished with green onions, is a true taste of Thailand in every bite.
   meat: Chicken, Prawns or Vegetarian (Tofu).
-- name: Stir-fry Cashews
-  photo: /assets/img/menu-stirfried-cashews.png
+- name: Pad Krapow
+  photo: /assets/img/menu-padkkrapao_pork-min.png
   price: €-
-  description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-  meat: Chicken, Prawns or Vegetarian (Tofu).
-- name: Thai Curry Puffs
-  photo: /assets/img/menu-puffs.png
-  price: €-
-  description: Homemade puffs filled with potatoes, shredded chicken and spices.
-  meat: Chicken
+  description: Relish the bold flavors of our Pad Krapow, a tantalizing stir-fry of tender proteins, aromatic Thai basil, and fiery chili peppers, all expertly infused with a savory garlic-soy sauce. This exquisite dish delivers a satisfying, flavor-packed experience you'll love.
+  meat: Pork or Beef.
+# - name: Stir-fry Cashews
+#   photo: /assets/img/menu-stirfried-cashews-min.png
+#   price: €-
+#   description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+#   meat: Chicken, Prawns or Vegetarian (Tofu).
+# - name: Thai Curry Puffs
+#   photo: /assets/img/menu-puffs-min.png
+#   price: €-
+#   description: Homemade puffs filled with potatoes, shredded chicken and spices.
+#   meat: Chicken
 - name: Spring Rolls
-  photo: /assets/img/menu-springrolls.png
+  photo: /assets/img/menu-springrolls-min.png
   price: €-
-  description: Homemade spring rolls filled with vermicelli rice noddles, vegetables and meat of choice.
+  description: Indulge in our delightful spring rolls, featuring a delicate, golden-brown wrapper filled with a medley of fresh vegetables and succulent proteins. These crispy, bite-sized delights are perfect for dipping and sure to please your taste buds.
   meat: Chicken or Vegetarian.
+  
