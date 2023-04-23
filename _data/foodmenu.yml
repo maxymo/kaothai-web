@@ -1,24 +1,24 @@
 #_data/foodmenu.yml
 - name: Pad Thai
   photo: /assets/img/menu-padthai-min.png
-  price: €-
+  price: €11
   description: Delight in our authentic Pad Thai, featuring rice noodles stir-fried with succulent proteins, crisp bean sprouts, and crushed peanuts, all perfectly balanced with tangy tamarind sauce. Experience a Thai favorite that's both satisfying and unforgettable.
-  meat: Chicken, Prawns or Vegetarian (Tofu).
+  meat: Chicken or Beef.
 - name: Thai Green Curry
   photo: /assets/img/menu-green-curry-min.png
-  price: €-
+  price: €11
   description: Immerse yourself in the rich flavors of our Thai Green Curry, a fragrant blend of creamy coconut milk, aromatic green curry paste, tender proteins, and garden-fresh vegetables. This sumptuous dish offers a harmonious taste adventure that's truly irresistible.
-  meat: Chicken, Prawns or Vegetarian (Tofu).
+  meat: Chicken or Beef.
 - name: Thai Fried Rice
   photo: /assets/img/menu-fried-rice-min.png
-  price: €-
+  price: €11
   description: Savor our vibrant, flavor-packed Thai fried rice, skillfully combining jasmine rice, tender proteins, fresh veggies, and exotic spices. This delightful dish, garnished with green onions, is a true taste of Thailand in every bite.
-  meat: Chicken, Prawns or Vegetarian (Tofu).
+  meat: Chicken or Beef.
 - name: Pad Krapow
   photo: /assets/img/menu-padkkrapao_pork-min.png
-  price: €-
+  price: €11
   description: Relish the bold flavors of our Pad Krapow, a tantalizing stir-fry of tender proteins, aromatic Thai basil, and fiery chili peppers, all expertly infused with a savory garlic-soy sauce. This exquisite dish delivers a satisfying, flavor-packed experience you'll love.
-  meat: Pork or Beef.
+  meat: Chicken or Beef.
 # - name: Stir-fry Cashews
 #   photo: /assets/img/menu-stirfried-cashews-min.png
 #   price: €-
@@ -29,9 +29,9 @@
 #   price: €-
 #   description: Homemade puffs filled with potatoes, shredded chicken and spices.
 #   meat: Chicken
-- name: Spring Rolls
+- name: Spring Rolls x4
   photo: /assets/img/menu-springrolls-min.png
-  price: €-
+  price: €6
   description: Indulge in our delightful spring rolls, featuring a delicate, golden-brown wrapper filled with a medley of fresh vegetables and succulent proteins. These crispy, bite-sized delights are perfect for dipping and sure to please your taste buds.
-  meat: Chicken or Vegetarian.
+  meat: Vegetarian.
   
