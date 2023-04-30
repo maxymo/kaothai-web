@@ -4,7 +4,7 @@
   price: €11
   description: Delight in our authentic Pad Thai, featuring rice noodles stir-fried with succulent proteins, crisp bean sprouts, and crushed peanuts, all perfectly balanced with tangy tamarind sauce. Experience a Thai favorite that's both satisfying and unforgettable.
   meat: Chicken or Beef.
-- name: Thai Green Curry
+- name: Thai Curry (green, yellow or red)
   photo: /assets/img/menu-green-curry-min.png
   price: €11
   description: Immerse yourself in the rich flavors of our Thai Green Curry, a fragrant blend of creamy coconut milk, aromatic green curry paste, tender proteins, and garden-fresh vegetables. This sumptuous dish offers a harmonious taste adventure that's truly irresistible.
@@ -17,18 +17,28 @@
 - name: Pad Krapow
   photo: /assets/img/menu-padkkrapao_pork-min.png
   price: €11
-  description: Relish the bold flavors of our Pad Krapow, a tantalizing stir-fry of tender proteins, aromatic Thai basil, and fiery chili peppers, all expertly infused with a savory garlic-soy sauce. This exquisite dish delivers a satisfying, flavor-packed experience you'll love.
+  description: Relish the bold flavors of our Pad Krapow, a tantalizing stir-fry of tender proteins, aromatic basil, frie egg, and fiery chili peppers, all expertly infused with a savory garlic-soy sauce. This exquisite dish delivers a satisfying, flavor-packed experience you'll love.
+  meat: Chicken, Beef or Pork.
+- name: Pad See Ew
+  photo: /assets/img/menu-pad-see-ew-min.png
+  price: €11
+  description: Satisfy your taste buds with our comforting Pad See Ew, featuring wide rice noodles stir-fried with tender protein, crisp vegetables, and fragrant garlic, all perfectly coated in a savory soy sauce. This classic Thai dish offers a delightful combination of flavors and textures that will keep you coming back for more.
   meat: Chicken or Beef.
 # - name: Stir-fry Cashews
 #   photo: /assets/img/menu-stirfried-cashews-min.png
 #   price: €-
 #   description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
 #   meat: Chicken, Prawns or Vegetarian (Tofu).
-# - name: Thai Curry Puffs
-#   photo: /assets/img/menu-puffs-min.png
-#   price: €-
-#   description: Homemade puffs filled with potatoes, shredded chicken and spices.
-#   meat: Chicken
+- name: Stir-fry Noddles
+  photo: /assets/img/menu-stirfried-noddles-min.png
+  price: €11
+  description: Enjoy our delicious egg noodles, cooked with fresh veggies and your favorite protein. Mixed with our special sauce, this simple yet flavorful dish is sure to satisfy your cravings for a comforting meal.
+  meat: Chicken or Beef.
+- name: Thai Curry Puffs x3
+  photo: /assets/img/menu-puffs-min.png
+  price: €5
+  description: Homemade puffs filled with potatoes, shredded chicken and spices.
+  meat: Chicken
 - name: Spring Rolls x4
   photo: /assets/img/menu-springrolls-min.png
   price: €6
