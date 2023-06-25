@@ -1,47 +1,215 @@
 #_data/foodmenu.yml
-- name: Pad Thai
-  photo: /assets/img/menu-padthai-min.png
-  price: €11
-  description: Delight in our authentic Pad Thai, featuring rice noodles stir-fried with succulent proteins, crisp bean sprouts, and crushed peanuts, all perfectly balanced with tangy tamarind sauce. Experience a Thai favorite that's both satisfying and unforgettable.
-  meat: Chicken or Beef.
-- name: Thai Curry (green, yellow or red)
-  photo: /assets/img/menu-green-curry-min.png
-  price: €11
-  description: Immerse yourself in the rich flavors of our Thai Green Curry, a fragrant blend of creamy coconut milk, aromatic green curry paste, tender proteins, and garden-fresh vegetables. This sumptuous dish offers a harmonious taste adventure that's truly irresistible.
-  meat: Chicken or Beef.
-- name: Thai Fried Rice
-  photo: /assets/img/menu-fried-rice-min.png
-  price: €11
-  description: Savor our vibrant, flavor-packed Thai fried rice, skillfully combining jasmine rice, tender proteins, fresh veggies, and exotic spices. This delightful dish, garnished with green onions, is a true taste of Thailand in every bite.
-  meat: Chicken or Beef.
-- name: Pad Krapow
-  photo: /assets/img/menu-padkkrapao_pork-min.png
-  price: €11
-  description: Relish the bold flavors of our Pad Krapow, a tantalizing stir-fry of tender proteins, aromatic basil, frie egg, and fiery chili peppers, all expertly infused with a savory garlic-soy sauce. This exquisite dish delivers a satisfying, flavor-packed experience you'll love.
-  meat: Chicken, Beef or Pork.
-- name: Pad See Ew
-  photo: /assets/img/menu-pad-see-ew-min.png
-  price: €11
-  description: Satisfy your taste buds with our comforting Pad See Ew, featuring wide rice noodles stir-fried with tender protein, crisp vegetables, and fragrant garlic, all perfectly coated in a savory soy sauce. This classic Thai dish offers a delightful combination of flavors and textures that will keep you coming back for more.
-  meat: Chicken or Beef.
-# - name: Stir-fry Cashews
-#   photo: /assets/img/menu-stirfried-cashews-min.png
-#   price: €-
-#   description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-#   meat: Chicken, Prawns or Vegetarian (Tofu).
-- name: Stir-fry Noddles
-  photo: /assets/img/menu-stirfried-noddles-min.png
-  price: €11
-  description: Enjoy our delicious egg noodles, cooked with fresh veggies and your favorite protein. Mixed with our special sauce, this simple yet flavorful dish is sure to satisfy your cravings for a comforting meal.
-  meat: Chicken or Beef.
 - name: Thai Curry Puffs x3
-  photo: /assets/img/menu-puffs-min.png
+  photo: /assets/img/menu/menu-chicken-puffs-small.png
   price: €5
-  description: Homemade puffs filled with potatoes, shredded chicken and spices.
-  meat: Chicken
+  description: Savoury mixture of potatoes, chicken and spices, enveloped in a flaky pastry shell. Portion of 3 puffs.
+  protein:
+    - chicken
+  allergens:
+    - molluscs
+    - soya
+    - gluten
 - name: Spring Rolls x4
-  photo: /assets/img/menu-springrolls-min.png
+  photo: /assets/img/menu/menu-spring-rolls-small.png
   price: €6
-  description: Indulge in our delightful spring rolls, featuring a delicate, golden-brown wrapper filled with a medley of fresh vegetables and succulent proteins. These crispy, bite-sized delights are perfect for dipping and sure to please your taste buds.
-  meat: Vegetarian.
-  
+  description: Our crispy spring rolls are filled with a tasty filling of cabbage, carrots and vermicelli noodles, seasoning  and served with a sweet chili dipping sauce. Portion of 4.
+  protein:
+    - veggies
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - soya
+- name: Pad Thai
+  photo: /assets/img/menu/menu-pad-thai-small.png
+  price: €11
+  description: Stir-fried rice noodles with eggs, tofu or your choice of protein, bean sprouts, and peanuts tossed in a tangy tamarind sauce.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - fish
+    - gluten
+    - milk
+    - molluscs
+    - peanuts
+    - soya
+- name: Pad Krapow
+  photo: /assets/img/menu/menu-pad-krapow-small.png
+  price: €11
+  description: Mixed fresh vegetables stir-fried with fresh basil, all enveloped in a fiery yet balanced chili and garlic sauce with your choice of protein and fried egg.
+  protein:
+    - beef
+    - chicken
+    - pork
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - soya
+- name: Stir-fry Oyster Sauce
+  photo: /assets/img/menu/no-available2.png
+  price: €11
+  description: Wheat noodles with a colourful mix of fresh vegetables, all stir-fried together with your choice of protein and our special sauce.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - soya
+- name: Stir-fry Noddles
+  photo: /assets/img/menu/menu-stir-fry-noodles-small.png
+  price: €11
+  description: Wheat noodles with a colourful mix of fresh vegetables, all stir-fried together with your choice of protein and our special sauce.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - soya
+- name: Pad See Ew
+  photo: /assets/img/menu/menu-pad-see-ew-small.png
+  price: €11
+  description: Stir-fried rice noodles, eggs, mixed peppers, spring onions, and beansprouts seasoned with garlic and rich black soy sauce with your choice of protein.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - soya
+- name: Pad Kea Mao
+  photo: /assets/img/menu/no-available2.png
+  price: €11
+  description: Wheat noodles with a colourful mix of fresh vegetables, chilli and sweet basil all stir-fried together with your choice of protein and our special sauce.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - soya
+- name: Stir-fry Cashews
+  photo: /assets/img/menu/menu-stir-fry-cashews-small.png
+  price: €11
+  description: Stir-Fry fresh vegetables combining crunchy cashew nuts with you choice of protein and accompained of Jazmine rice.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - treenuts
+    - sesame
+    - soya
+- name: Thai Fried Rice
+  photo: /assets/img/menu/menu-fried-rice-small.png
+  price: €11
+  description: Jasmine rice stir-fried with broccoli, carrots and onions, your choice of protein, and our special blend of seasonings garnished with spring onions.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - eggs
+    - gluten
+    - milk
+    - molluscs
+    - soya
+- name: Thai Green Curry
+  photo: /assets/img/menu/menu-green-curry-small.png
+  price: €11
+  description: Fresh mixed peppers, onions, basil leaves, all simmered in a lively green curry sauce with your choice of protein.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - milk
+- name: Thai Yellow Curry
+  photo: /assets/img/menu/no-available2.png
+  price: €11
+  description: Fresh mixed peppers, onions, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - milk
+- name: Thai Red Curry
+  photo: /assets/img/menu/menu-red-curry-small.png
+  price: €11
+  description: Fresh mixed peppers, onions, basil leaves, all simmered in a rich and aromatic red curry sauce with your choice of protein.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
+    - milk
+- name: Orange chicken & Chips
+  photo: /assets/img/menu/no-available2.png
+  price: €8
+  description: Indulge in the delicious combination of crispy orange chicken paired with golden, crispy chips for a delightful fusion of flavors and textures.
+  protein:
+    - chicken
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - soya
+    - sulphites
+- name: chicken Goujons & Chips
+  photo: /assets/img/menu/no-available2.png
+  price: €8
+  description: Satisfy your cravings with our succulent chicken goujons served alongside crispy chips.
+  protein:
+    - chicken
+  allergens:
+    - gluten
+    - milk
+- name: Spicy chicken Tendenrs & Chips
+  photo: /assets/img/menu/no-available2.png
+  price: €8
+  description: Experience a fiery kick with our spicy chicken tenders accompanied by crispy chips.
+  protein:
+    - chicken
+  allergens:
+    - gluten
