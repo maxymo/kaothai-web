@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Kao Thai - Authentic Street Food
-openHours1: "We will be back soon"
-openHours2: "Swords: Come back on Fri 16tH June 5pm to 8pm"
-openHours3: "Bettystown: Come back on Sat 17th Jun 12pm to 5:30pm"
+openHoursTitle: "Open as usual"
+openHoursSwrods: "Tue to Fri 4pm to 8pm"
+openHoursBettystown: "Sat and Sun 10am to 5:30pm (good weather only)"
 ---
 
 <header id="header" class="header">
@@ -16,10 +16,14 @@ openHours3: "Bettystown: Come back on Sat 17th Jun 12pm to 5:30pm"
             <div class="col-12 col-md-6 text-center">
                 <img class="img-fluid" src="/assets/img/truck.png" alt="Kao Thai Food Truck">
             </div>
-            <div class="col text-center">   
-                <h1 style="color: white">{{ page.openHours1 }}</h1>
-                <h2 style="color: white">{{ page.openHours2 }}</h2>
-                <h2 style="color: white">{{ page.openHours3 }}</h2>
+            <div class="col-12 col-md-6 text-center">
+                <div class="card text-bg-light">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ page.openHoursTitle }}</h5>
+                        <p class="card-text"><b>Swords</b> {{ page.openHoursSwrods }}</p>
+                        <p class="card-text"><b>Bettystown</b> {{ page.openHoursBettystown }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
