@@ -1,4 +1,4 @@
-const csvUrl = 'http://127.0.0.1:4000/assets/price-table.csv';
+const csvUrl = '/assets/price-table.csv';
 
 function calculatePrice(headcount, includeStarter, includeDrinks) {
     Papa.parse(csvUrl, {
