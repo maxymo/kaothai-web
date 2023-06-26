@@ -57,11 +57,14 @@ body{
     padding-top: 150px;
 }
 
-// .banner {
-//     min-height: 2000px;
-//     background-image: url('/assets/img/banner3.jpg');
-//     background-size: cover;
-// }
+.bannerEvents {
+    height: 100vh;
+    background: url(/assets/img/boat.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 150px;
+}
 
 .card-link {
     cursor: pointer;
