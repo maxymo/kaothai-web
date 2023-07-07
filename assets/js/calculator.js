@@ -11,7 +11,7 @@ function calculatePrice(headcount, includeStarter, includeDrinks) {
             const cateringOptions = data.find(option => option.headcount === headcount);
 
             if (!cateringOptions) {
-                console.error("No catering options available for the given number of headcount.");
+                console.error("Please contact us for a custom quote at: 083 1872130 or eat@kaothai.ie");
                 return;
             }
 
