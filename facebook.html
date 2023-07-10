@@ -23,12 +23,6 @@
             fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
 
-
-            function checkLoginState() {
-            FB.getLoginStatus(function(response) {
-                statusChangeCallback(response);
-            });
-            }
         </script>
     </head>
     <body>
@@ -40,11 +34,7 @@
 
         <div class="fb-login-button" data-width="" data-size="" data-button-type="" data-layout="" data-auto-logout-link="false" data-use-continue-as="false"></div>
 
-
-        <fb:login-button 
-        scope="public_profile,email"
-        onlogin="checkLoginState();">
-        </fb:login-button>
+        <a href="https://www.facebook.com/v17.0/dialog/oauth?client_id=5799128476854060&redirect_uri=https://www.kaothai.ie/facebook-logged.html&state=stateparam">Log ig</a>
         
     </body>
 </html>
