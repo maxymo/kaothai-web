@@ -39,100 +39,106 @@ title: Kao Thai - Corporate Events and Private Parties
         <!-- Prices table -->
 
         <h2>Get a preliminar quote online!</h2>
-        <div>
-            <form id="catering-form">
-                <div class="mb-3">
-                    <label for="headcounts" class="form-label">Total Headcount (Up to three different main dishes to choose)</label>
-                    <select class="form-select" id="headcounts">
-                    {% assign array = "40,50,60,70,80,90,100,110,120,130,140,150" | split: "," %}
-                    {% for i in array %}
-                        <option value="{{i}}">{{i}} people</option>
-                    {% endfor %}
-                    </select>
-                </div>
-                
-                <div class="mb-3">
-                    <label for="starters" class="form-label">Include Starters (Up to 2 different starters to choose)</label>
-                    <select class="form-select" id="starters">
-                    <option value="no">No</option>
-                    <option value="yes">Yes</option>
-                    </select>
-                </div>
-                
-                <div class="mb-3">
-                    <label for="drinks" class="form-label">Drinks provided? (Soft drinks and bottle of water)</label>
-                    <select class="form-select" id="drinks">
-                    <option value="no">No</option>
-                    <option value="yes">Yes</option>
-                    </select>
-                </div>
-                
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">Calculate Price</button>
-                </div>
-            </form>
-
-            <form accept-charset="UTF-8" action="https://getform.io/f/54836bff-da41-44c7-b3be-5f7815ab298f"
+        <p>Please note our minimum charge is €560</p>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="catering-form">
+                    <div class="mb-3">
+                        <label for="headcounts" class="form-label">Total Headcount (Up to three different main dishes to choose)</label>
+                        <select class="form-select" id="headcounts">
+                        {% assign array = "10,20,30,40,50,60,70,80,90,100,110,120,130,140,150" | split: "," %}
+                        {% for i in array %}
+                            <option value="{{i}}">{{i}} people</option>
+                        {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="starters" class="form-label">Include Starters (Up to 2 different starters to choose)</label>
+                        <select class="form-select" id="starters">
+                        <option value="no">No</option>
+                        <option value="yes">Yes</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="drinks" class="form-label">Drinks provided? (Soft drinks and bottle of water)</label>
+                        <select class="form-select" id="drinks">
+                        <option value="no">No</option>
+                        <option value="yes">Yes</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Calculate Price</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="col-md-6">
+                <form accept-charset="UTF-8" action="https://getform.io/f/54836bff-da41-44c7-b3be-5f7815ab298f"
                         method="POST" enctype="multipart/form-data">
-                <div id="quote" style="display:none;">
+                    <div id="quote" style="display:none;">
 
-                    <h4>Preliminary Quote</h4>
+                        <h4>Preliminary Quote</h4>
 
-                    <div class="mb-3">
-                        <p>Thank you for considering our food truck for your upcoming event! Below you will find an estimated price based on the information provided. Please note that this is a preliminary quote and may be subject to change depending on additional requirements, location factors, and our availability.</p>
+                        <div class="mb-3">
+                            <p>Thank you for considering our food truck for your upcoming event! Below you will find an estimated price based on the information provided. Please note that this is a preliminary quote and may be subject to change depending on additional requirements, location factors, and our availability.</p>
 
-                        <h4>The estimated price to cater your event is €<span id="price"></span> (Inc. 13.50% VAT)</h3>
+                            <h4>The estimated price to cater your event is €<span id="price"></span> (Inc. 13.50% VAT)</h3>
 
-                        <ul>
-                            <li>A 50% deposit secures your date, with the remaining 50% due on the day. </li>
-                            <li>Cancellation fee of €100 for bookings over 2 weeks prior; deposit non-refundable for cancellations within 2 weeks.</li>
-                            <li>Our food truck is fully equipped with a generator, water supply, and waste management. Alternatively, you can provide a domestic socket to avoid generator noise. </li>
-                            <li>Serving capacity is up to 50 people per hour. Please consider this when hosting a large event. We prioritize quality and attention to detail for all guests.</li>
-                        </ul>
+                            <ul>
+                                <li>A 50% deposit secures your date, with the remaining 50% due on the day. </li>
+                                <li>Cancellation fee of €100 for bookings over 2 weeks prior; deposit non-refundable for cancellations within 2 weeks.</li>
+                                <li>Our food truck is fully equipped power supply, water supply, and waste management. </li>
+                                <li>Serving capacity is up to 70 people per hour. Please consider this when hosting a large event. We prioritize quality and attention to detail for all guests.</li>
+                            </ul>
 
-                        <p>For any specific requests or further inquiries, please don't hesitate to send us the form below or contact us. We look forward to the opportunity to serve you and make your event truly memorable.</p>
-                    </div>
+                            <p>For any specific requests or further inquiries, please don't hesitate to send us the form below or contact us. We look forward to the opportunity to serve you and make your event truly memorable.</p>
+                        </div>
 
-                    <div class="mb-3">
-                        <label for="txtName" class="form-label">Contact Name*</label>
-                        <input type="text" name="name" class="form-control" id="txtName" required maxlength="40">
+                        <div class="mb-3">
+                            <label for="txtName" class="form-label">Contact Name*</label>
+                            <input type="text" name="name" class="form-control" id="txtName" required maxlength="40">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtLocation" class="form-label">Event Location*</label>
+                            <input type="text" name="eventLlocation" class="form-control" id="txtLocation" required maxlength="40">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtDate" class="form-label">Date and Time*</label>
+                            <input type="text" name="eventDate" class="form-control" id="txtDate" required maxlength="40">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtCompany" class="form-label">Company (optional)</label>
+                            <input type="text" name="company" class="form-control" id="txtCompany" maxlength="40">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtEmail" class="form-label">Email address*</label>
+                            <input type="email" name="email" class="form-control" id="txtEmail"
+                                placeholder="name@example.com" required maxlength="50">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtPhone" class="form-label">Phone Number (optional)</label>
+                            <input type="text" name="phone" class="form-control" id="txtPhone" maxlength="20">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtMessage" class="form-label">Comments</label>
+                            <textarea class="form-control" name="message" id="txtMessage" rows="7" required
+                                maxlength="5000"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+                        </div>
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+                        
+                        <div class="mb-3">
+                            <input class="form-control" type="submit" />
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="txtLocation" class="form-label">Event Location*</label>
-                        <input type="text" name="eventLlocation" class="form-control" id="txtLocation" required maxlength="40">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtDate" class="form-label">Date and Time*</label>
-                        <input type="text" name="eventDate" class="form-control" id="txtDate" required maxlength="40">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtCompany" class="form-label">Company (optional)</label>
-                        <input type="text" name="company" class="form-control" id="txtCompany" maxlength="40">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtEmail" class="form-label">Email address*</label>
-                        <input type="email" name="email" class="form-control" id="txtEmail"
-                            placeholder="name@example.com" required maxlength="50">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtPhone" class="form-label">Phone Number (optional)</label>
-                        <input type="text" name="phone" class="form-control" id="txtPhone" maxlength="20">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtMessage" class="form-label">Comments</label>
-                        <textarea class="form-control" name="message" id="txtMessage" rows="7" required
-                            maxlength="5000"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>
-                    </div>
-                    <input type="hidden" name="_gotcha" style="display:none !important">
-                     
-                    <div class="mb-3">
-                        <input class="form-control" type="submit" />
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
+            
             
             <script>
             document.getElementById('catering-form').addEventListener('submit', function(event) {

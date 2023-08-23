@@ -1,35 +1,5 @@
 const csvUrl = '/assets/price-table.csv';
 
-function calculatePrice(headcount, includeStarter, includeDrinks) {
-    Papa.parse(csvUrl, {
-        download: true,
-        header: true,
-        dynamicTyping: true,
-        complete: function(results) {
-            console.log(results);
-            const data = results.data;
-            const cateringOptions = data.find(option => option.headcount === headcount);
-
-            if (!cateringOptions) {
-                console.error("Please contact us for a custom quote at: 083 1872130 or eat@kaothai.ie");
-                return;
-            }
-
-            let total = cateringOptions.price * headcount;
-
-            if (includeStarter) {
-                total += cateringOptions.withStarter * headcount;
-            }
-
-            if (includeDrinks) {
-                total += cateringOptions.withDrinks * headcount;
-            }
-
-            return total;
-        }
-    });
-}
-
 async function calculateCateringCost(numberOfPeople, includeStarters, includeDrinks) {
     const response = await fetch(csvUrl);
     const reader = response.body.getReader();
@@ -39,6 +9,7 @@ async function calculateCateringCost(numberOfPeople, includeStarters, includeDri
     const lines = csv.split('\n');
     const cateringOption = lines.find(line => line.startsWith(numberOfPeople));
     const [people, price, startersPrice, drinksPrice] = cateringOption.split(',');
+    const minimumFee = 560;
 
     let totalCost = Number(price) * numberOfPeople;
 
@@ -47,6 +18,10 @@ async function calculateCateringCost(numberOfPeople, includeStarters, includeDri
     }
     if (includeDrinks) {
         totalCost += Number(drinksPrice) * numberOfPeople;
+    }
+
+    if (totalCost < minimumFee){
+        totalCost = minimumFee;
     }
 
     return totalCost;
