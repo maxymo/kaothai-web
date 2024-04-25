@@ -48,6 +48,15 @@ body{
     height: 60px;
 }
 
+.carrousel {
+    height: 100vh;
+    // background: url(/assets/img/banner4.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 80px;
+}
+
 .banner {
     height: 100vh;
     background: url(/assets/img/banner4.jpg);
@@ -75,12 +84,42 @@ body{
     height: 100%;
     padding: 0px;
     margin: 0px;
-    border: 0px;
+    border: none;
     overflow: hidden;
 }
 
 .iframe-container {
-    position: relative;
+    // position: relative;
     width: 100%;
     overflow: hidden;
   }
+
+#titulo {
+    color: red;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+/* Set maximum height for images */
+.max-img-height {
+    max-height: calc(100vh - 56px);  /* Adjust this value as needed */
+    object-fit: contain;
+}
+.carousel-item {
+    transition: transform 1s;
+}
+
+// .carousel-fade .active.carousel-item-start,
+// .carousel-fade .active.carousel-item-end {
+//   transition: opacity 0s 2.6s;
+// }
+
+// @keyframes slide {
+//     0% {
+//         transform: translateX(0);
+//     }
+//     100% {
+//         transform: translateX(100%);
+//     }
+// }

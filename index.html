@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Kao Thai Food Truck Ireland - Authentic Street Food
-openHoursTitle: "Join us at Opening in Elmgrove Farm Gormanston on April 19th"
-openHoursLisdornan: "Opening Hours: Friday & Saturday from 5pm to 9:30pm. See you soon!"
+openHoursTitle: "We are in Elmgrove Farm Gormanston"
+openHoursLisdornan: "Opening Hours: Friday, Saturday and Sunday from 4pm to 9:30pm."
 openHoursNote: ""
 ---
 
@@ -10,15 +10,48 @@ openHoursNote: ""
     {% include navbar.html %}
 </header>
 
-<section id="banner" class="banner">
-    <div class="container mt-5">
+
+<section class="carousel">
+    <div id="carouselExampleIndicators" class="slide" data-ride="carousel" data-wrap="true" data-pause="false">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block max-img-height mx-auto w-100" src="/assets/img/carousel/truck-elmgrove-web.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block bg-dark">
+                <h5>{{ page.openHoursTitle }}</h5>
+                <p>{{ page.openHoursLisdornan }}</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img class="d-block max-img-height mx-auto w-100" src="/assets/img/carousel/dishes-web.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block max-img-height mx-auto w-100" src="/assets/img/carousel/order-online-web.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+    </div>
+</section>
+
+<!-- <section id="banner" class="banner">
+     <div class="container mt-5">
         <div class="row align-items-center">
             <div class="col-12 col-md-6 text-center">
                 <img width="600px" class="img-fluid" src="/assets/img/truck-elmgrove.jpg" alt="Kao Thai Food Truck">
             </div>
             <div class="col-12 col-md-6 text-center">
                 <div class="card text-bg-light bg-warning">
-                <!-- <div class="card text-bg-light"> -->
                     <div class="card-body">
                         <h5 class="card-title">{{ page.openHoursTitle }}</h5>
                         <p class="card-text">{{ page.openHoursLisdornan }}</p>
@@ -28,76 +61,15 @@ openHoursNote: ""
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section id="menu" class="pt-5">
-    <div class="container">
-        <h1 class="my-5 text-center">Our Menu!</h1>
-
-        <div class="row">
-
-            {% for item in site.data.foodmenu %}
-            <div class="col-lg-4 d-flex align-items-stretch">
-                <div class="card mb-3 text-bg-light border-1 border-dark card-link">
-                    <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#detailModal-{{ forloop.index }}"></a>
-                    <div class="card-body p-0 d-flex flex-column">
-                    <div class="p-3 flex-grow-1">
-                        <img src="{{ item.photo }}" class="card-img-top" alt="{{ item.name }}">
-                    </div>
-                    <div class="card-title d-flex bg-dark p-2 m-0">
-                        <h5 class="text-uppercase text-center text-white w-100">{{ item.name }} </h5>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dish Detail -->
-            <div class="modal fade" id="detailModal-{{ forloop.index }}" tabindex="-1" aria-labelledby="detailModal-{{ forloop.index }}Label" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="detailModal-{{ forloop.index }}Label">{{ item.name }}</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="{{ item.photo }}" class="card-img-top" alt="{{ item.name }}">
-                        
-                        <p class="mt-3">{{ item.description }}</p>
-
-                        <div class="mt-3">
-                            <h6>Protein choices</h6>
-                            {% for protein in item.protein %}
-                                <img src="/assets/img/proteins/{{ protein | downcase }}.png" style="width: 50px;" class="mr-2" alt="{{ protein }}">
-                            {% endfor %}
-                        </div>
-                        
-                        <div class="mt-3">
-                            <h6>Allergens</h6>
-                            {% for allergen in item.allergens %}
-                                <img src="/assets/img/allergens/allergen-{{ allergen | downcase }}.png" style="width: 50px;" class="mr-2" alt="{{ protein }}">
-                            {% endfor %}
-                            <p class="text-muted mt-3">May contain: Cashew nuts, Crustaceans, Eggs, Gluten, Fish, Milk, Molluscs, Sesame seeds, Soybeans, Sulphur dioxide and sulphites, Peanuts</p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-                </div>
-            </div>
-            {% endfor %}
-
-        </div>
-    </div>
-</section>
+    </div> 
+</section> -->
 
 <section id="location" class="pt-5">
     <div class="container">
 
         <h1 class="my-5 text-center">Truck Locator</h1>
         <div class="container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9460.894834233632!2d-6.307087621213622!3d53.64298317850193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48673c6f3bba64db%3A0x99552d3618c03f7!2sLisdornan%2C%20Co.%20Meath%2C%20A92%20E684!5e0!3m2!1sen!2sie!4v1697701647971!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2364.625355660536!2d-6.262033823068536!3d53.65365205168532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486711b7a6201567%3A0x34097dd2977ff156!2sKao%20Thai%20Food%20Truck!5e0!3m2!1sen!2sie!4v1713994401247!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
     </div>
@@ -181,17 +153,5 @@ openHoursNote: ""
     </div>
 </section>
 
-<script>
-    window.addEventListener('scroll', function () {
-        const header = document.getElementById('header');
-
-        if (window.scrollY > 120) {
-            header.classList.add('fixed');
-            header.classList.add('compact');
-        } else {
-            header.classList.remove('fixed');
-            header.classList.remove('compact');
-        }
-    });
-
-</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
