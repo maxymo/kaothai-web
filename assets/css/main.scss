@@ -103,7 +103,8 @@ body{
 }
 /* Set maximum height for images */
 .max-img-height {
-    max-height: calc(100vh - 56px);  /* Adjust this value as needed */
+    height: 100vh;  /* Adjust this value as needed */
+    // min-height: 800px;
     object-fit: contain;
 }
 .carousel-item {
