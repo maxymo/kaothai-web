@@ -101,26 +101,34 @@ body{
 .carousel-item img {
     object-fit: cover;
 }
-/* Set maximum height for images */
-.max-img-height {
-    height: 100vh;  /* Adjust this value as needed */
-    // min-height: 800px;
+
+.max-carousel-height {
+    height: 100vh;
     object-fit: contain;
 }
+@media (max-width: 576px) {
+    /* Example styles */
+    .max-carousel-height {
+        height: 50vh; 
+        object-fit: contain;
+    }
+}
+
 .carousel-item {
     transition: transform 1s;
 }
 
-// .carousel-fade .active.carousel-item-start,
-// .carousel-fade .active.carousel-item-end {
-//   transition: opacity 0s 2.6s;
-// }
-
-// @keyframes slide {
-//     0% {
-//         transform: translateX(0);
-//     }
-//     100% {
-//         transform: translateX(100%);
-//     }
-// }
+.important_notice {
+    background-color: yellow;
+    z-index: 1040;
+    padding: 10px 10px;
+    margin: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    top: 82px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-transform: uppercase;
+}
