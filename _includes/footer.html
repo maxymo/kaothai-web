@@ -33,12 +33,17 @@
               Kao Thai Food Truck
             </h6>
             <p>
-              Location: Elmgrove Irish Flower Farm<br />
+              Elmgrove Irish Flower Farm<br />
               Gormanstown<br />
               Co. Meath<br />
               K32C925<br />
               Friday, Saturday and Sunday<br />
               From 4pm to 9:30pm<br />
+              {% if site.data.general.alert != "" %}
+              <div class="alert alert-warning">
+                  {{  site.data.general.alert }}
+              </div>
+              {% endif %}
             </p>
           </div>
           <!-- Grid column -->
