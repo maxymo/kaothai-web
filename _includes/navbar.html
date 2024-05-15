@@ -1,25 +1,27 @@
 {% if site.data.general.alert != "" %}
-<div class="alert alert-warning important_notice">
-    <i class="bi bi-exclamation-diamond-fill"></i> {{  site.data.general.alert }} <i class="bi bi-exclamation-diamond-fill"></i>
-</div>
-{% endif %}
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-            <img id="logo" src="/assets/img/logo-white.png" height="56px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                {% for item in site.data.navbar %}
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="{{ item.link }}"> {{ item.name }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+<div class="nav_container fixed-top">
+    <div class="alert alert-warning important_notice">
+        <i class="bi bi-exclamation-diamond-fill"></i> {{  site.data.general.alert }} <i class="bi bi-exclamation-diamond-fill"></i>
     </div>
-</nav>
+    {% endif %}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav_container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img id="logo" src="/assets/img/logo-white.png" height="56px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    {% for item in site.data.navbar %}
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="{{ item.link }}"> {{ item.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>

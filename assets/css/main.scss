@@ -119,16 +119,19 @@ body{
 }
 
 .important_notice {
-    //background-color: yellow;
     z-index: 1040;
     padding: 10px 10px;
     margin: 0;
     right: 0;
     left: 0;
-    position: fixed;
-    top: 82px;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.nav_container {
+    z-index: 1040;
+    right: 0;
+    left: 0;
 }
