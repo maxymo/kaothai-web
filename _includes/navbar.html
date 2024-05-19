@@ -1,5 +1,5 @@
-{% if site.data.general.alert != "" %}
 <div class="nav_container fixed-top">
+    {% if site.data.general.alertOn == true %}
     <div class="alert alert-warning important_notice">
         <i class="bi bi-exclamation-diamond-fill"></i> {{  site.data.general.alert }} <i class="bi bi-exclamation-diamond-fill"></i>
     </div>
