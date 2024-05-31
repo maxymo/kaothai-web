@@ -14,11 +14,21 @@ openHoursNote: ""
 <section>
     <div id="carouselHome" class="carousel slide" data-ride="carousel" data-wrap="true" data-pause="false">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" class="active" aria-label="Slide 4"></button>
           </div>
         <div class="carousel-inner">
+            <div class="carousel-item">
+                <a href="/order">
+                    <img class="d-block max-carousel-height mx-auto w-100" src="/assets/img/carousel/week-special-puffs.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block bg-light text-bg-light">
+                        <h5>Week Special - Singaporean Chicken Puffs</h5>
+                        <p>Golden, flaky pastry filled with a savory blend of curry, potatoes, chicken, peas, corn and aromatic spices</p>
+                    </div>
+                </a>
+            </div>
             <div class="carousel-item active">
                 <img class="d-block max-carousel-height mx-auto w-100" src="/assets/img/carousel/truck-elmgrove-web.jpg" alt="First slide">
                 <div class="carousel-caption d-none d-md-block bg-light text-bg-light">
@@ -46,25 +56,69 @@ openHoursNote: ""
     </div>
 </section>
 
-<!-- <section id="banner" class="banner">
-     <div class="container mt-5">
-        <div class="row align-items-center">
-            <div class="col-12 col-md-6 text-center">
-                <img width="600px" class="img-fluid" src="/assets/img/truck-elmgrove.jpg" alt="Kao Thai Food Truck">
-            </div>
-            <div class="col-12 col-md-6 text-center">
-                <div class="card text-bg-light bg-warning">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ page.openHoursTitle }}</h5>
-                        <p class="card-text">{{ page.openHoursLisdornan }}</p>
-                        <p>Online orders coming soon</p>
-                        <p class="card-text"><b>{{ page.openHoursNote }}</b></p>
+<section id="menu" class="pt-5">
+    <div class="container">
+        <h1 class="my-5 text-center">Our Menu!</h1>
+
+        <div class="row">
+
+            {% for item in site.data.foodmenu %}
+                {% if item.enabled == true %}
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="card mb-3 text-bg-light border-1 border-dark card-link">
+                        <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#detailModal-{{ forloop.index }}"></a>
+                        <div class="card-body p-0 d-flex flex-column">
+                        <div class="p-3 flex-grow-1">
+                            <img src="{{ item.photo }}" class="card-img-top" alt="{{ item.name }}">
+                        </div>
+                        <div class="card-title d-flex bg-dark p-2 m-0">
+                            <h5 class="text-uppercase text-center text-white w-100">{{ item.name }} </h5>
+                        </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <!-- Dish Detail -->
+                <div class="modal fade" id="detailModal-{{ forloop.index }}" tabindex="-1" aria-labelledby="detailModal-{{ forloop.index }}Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="detailModal-{{ forloop.index }}Label">{{ item.name }}</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="{{ item.photo }}" class="card-img-top" alt="{{ item.name }}">
+                            
+                            <p class="mt-3">{{ item.description }}</p>
+
+                            <div class="mt-3">
+                                <h6>Protein choices</h6>
+                                {% for protein in item.protein %}
+                                    <img src="/assets/img/proteins/{{ protein | downcase }}.png" style="width: 50px;" class="mr-2" alt="{{ protein }}">
+                                {% endfor %}
+                            </div>
+                            
+                            <div class="mt-3">
+                                <h6>Allergens</h6>
+                                {% for allergen in item.allergens %}
+                                    <img src="/assets/img/allergens/allergen-{{ allergen | downcase }}.png" style="width: 50px;" class="mr-2" alt="{{ protein }}">
+                                {% endfor %}
+                                <p class="text-muted mt-3">May contain: Cashew nuts, Crustaceans, Eggs, Gluten, Fish, Milk, Molluscs, Sesame seeds, Soybeans, Sulphur dioxide and sulphites, Peanuts</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="/order" class="btn btn-primary" tabindex="-1" role="button">Order Online</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+
         </div>
-    </div> 
-</section> -->
+    </div>
+</section>
 
 <section id="location" class="pt-5">
     <div class="container">
