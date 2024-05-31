@@ -315,11 +315,8 @@
   protein:
     - chicken
   allergens:
-    - crustaceans
+    - celery
     - gluten
-    - milk
-    - soya
-    - sulphites
 - name: Spicy chicken Tendenrs & Chips
   enabled: false
   photo: /assets/img/menu/no-available2.png
