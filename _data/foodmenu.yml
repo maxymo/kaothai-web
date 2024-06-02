@@ -108,7 +108,7 @@
     - sesame
     - soya
 - name: Stir-fry Noddles
-  enabled: false
+  enabled: true
   photo: /assets/img/menu/menu-stir-fry-noodles-small.png
   price: €13
   description: Wheat noodles with a colourful mix of fresh vegetables, all stir-fried together with your choice of protein and our special sauce.
