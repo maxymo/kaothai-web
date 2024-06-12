@@ -1,6 +1,6 @@
 #_data/foodmenu.yml
 - name: Singaporean Chicken Puff x1
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/menu-singaporean-chicken-puffs-small.jpg
   price: €3.8
   description: Golden, flaky pastry filled with a savory blend of curry, potatoes, chicken, peas, corn and aromatic spices. Portion of 1
