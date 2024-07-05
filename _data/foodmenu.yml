@@ -118,7 +118,7 @@
     - soya
 - name: Stir-fry Oyster Sauce
   enabled: true
-  photo: /assets/img/menu/no-available2.png
+  photo: /assets/img/menu/menu-stir-fry-oyster-small.png
   price: €13
   description: Wheat noodles with a colourful mix of fresh vegetables, all stir-fried together with your choice of protein and our special sauce.
   protein:
@@ -223,7 +223,7 @@
     - soya
 - name: Sweet & Sour
   enabled: true
-  photo: /assets/img/menu/no-available2.png
+  photo: /assets/img/menu/menu-sweet-and-sour-small.png
   price: €13
   description: Mixed peppers, onions, pineapple, on a delectable sweet and sour sauce with your choice of protein. Side included.
   protein:
@@ -253,7 +253,7 @@
     - soya
 - name: Thai Yellow Curry
   enabled: true
-  photo: /assets/img/menu/no-available2.png
+  photo: /assets/img/menu/menu-yellow-curry-small.png
   price: €13
   description: Fresh mixed peppers, onions, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein. Sinde included.
   protein:
@@ -283,7 +283,7 @@
     - soya
 - name: Thai Masaman Curry
   enabled: true
-  photo: /assets/img/menu/no-available2.png
+  photo: /assets/img/menu/menu-masaman-curry-small.png
   price: €13
   description: This warming curry combines tender pieces of your chosen protein with potatoes and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Sinde included.
   protein:
@@ -333,6 +333,17 @@
     - milk
     - soya
     - sulphites
+- name: Hot Dog
+  enabled: true
+  photo: /assets/img/menu/menu-hotdog2-small.png
+  price: €7
+  description: 8.5 Inch Hot Dog topped with caramelised onions, cheddar cheese and bacon. Add drink and chips for €3
+  protein:
+    - pork
+  allergens:
+    - gluten
+    - milk
+    - mustard
 - name: Kids Meal
   enabled: true
   photo: /assets/img/menu/no-available2.png
