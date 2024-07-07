@@ -334,7 +334,7 @@
     - soya
     - sulphites
 - name: Hot Dog
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/menu-hotdog2-small.png
   price: €7
   description: 8.5 Inch Hot Dog topped with caramelised onions, cheddar cheese and bacon. Add drink and chips for €3
