@@ -11,7 +11,7 @@
     - soya
     - gluten
 - name: Home-made Vietnamese Fried Spring Rolls x2
-  enabled: false
+  enabled: true
   photo: /assets/img/menu/menu-vietnamese-spring-rolls-small.png
   price: €7
   description: Filled with prawns, chicken, pork, cabbage, carrots and vermicelli noodles, seasoning  and served with a sweet chili dipping sauce. Portion of 2.
