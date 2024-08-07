@@ -78,7 +78,7 @@ title: Kao Thai - Order Online
         <iframe id="iframe-online-orders" 
             src="https://goodeats.io/kaothaifoodtruck?embed_outlet=kaothaifoodtruck" 
             allowpaymentrequest="true" 
-            style="width: 100%;  margin: 0; padding: 80px 0 0 0;"></iframe>
+            style="width: 100%;  margin: 0; padding: {% if site.data.general.alertOn == true %}125px{% else %}80px{% endif %} 0 0 0;"></iframe>
             <!-- <div style="height: 2000px; background-color: aqua;"></div> -->
 
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
