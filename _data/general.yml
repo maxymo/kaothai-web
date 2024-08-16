@@ -1,4 +1,4 @@
 #_data/general.yml
 
-alertOn: true
+alertOn: false
 alert: "Now open from Wednesday to Sunday - 4pm to 9:30pm"

@@ -7,9 +7,13 @@
   protein:
     - chicken
   allergens:
-    - molluscs
-    - soya
+    - crustaceans
     - gluten
+    - milk
+    - molluscs
+    - sesame
+    - soya
+    - sulphites
 - name: Home-made Vietnamese Fried Spring Rolls x2
   enabled: false
   photo: /assets/img/menu/menu-vietnamese-spring-rolls-small.png
@@ -37,6 +41,14 @@
     - molluscs
     - sesame
     - soya
+- name: Prawn crackers
+  enabled: true
+  photo: /assets/img/menu/menu-spring-rolls-small.png
+  price: €3
+  description: Authentic Thai prawn crackers.
+  protein:
+  allergens:
+    - crustaceans
 - name: Fried Dumplings x5
   enabled: false
   photo: /assets/img/menu/no-available2.png
@@ -86,6 +98,12 @@
   protein:
     - chicken
   allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - sesame
+    - soya
 - name: Tom Ka Soup
   enabled: true
   photo: /assets/img/menu/menu-tom-ka-small.png
@@ -97,6 +115,10 @@
     - prawns
     - veggies
   allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - soya
 - name: Tom Yum Soup
   enabled: true
   photo: /assets/img/menu/menu-tom-yum-small.png
@@ -108,11 +130,15 @@
     - prawns
     - veggies
   allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - soya
 - name: Pad Thai
   enabled: true
   photo: /assets/img/menu/menu-pad-thai-small.png
   price: €13
-  description: Stir-fried rice noodles with eggs, your choice of protein, bean sprouts, and peanuts tossed in a tangy tamarind sauce.
+  description: Stir-fry rice noodles with tangy tamarind sauce accompanied by eggs, beansprouts, spring onions, crushed peanuts and protein of choice.
   protein:
     - beef
     - chicken
@@ -131,7 +157,7 @@
   enabled: true
   photo: /assets/img/menu/menu-pad-krapow-small.png
   price: €13
-  description: Mixed fresh vegetables stir-fried with fresh basil, all enveloped in a fiery yet balanced chili and garlic sauce with your choice of protein and fried egg.
+  description: Mixed fresh vegetables stir-fried with fresh basil, all enveloped in a fiery yet balanced chili and garlic sauce with your choice of protein and fried egg on top.
   protein:
     - beef
     - chicken
@@ -150,7 +176,7 @@
   enabled: true
   photo: /assets/img/menu/menu-stir-fry-oyster-small.png
   price: €13
-  description: Wheat noodles with a colourful mix of fresh vegetables, all stir-fried together with your choice of protein and our special sauce.
+  description: Stir-fry fresh vegetables in delicious oyster sauce with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -219,7 +245,7 @@
   enabled: true
   photo: /assets/img/menu/menu-stir-fry-cashews-small.png
   price: €13
-  description: Stir-Fry fresh vegetables combining crunchy cashew nuts with you choice of protein and accompained of Jazmine rice.
+  description: Stir-Fry fresh vegetables combining crunchy cashew nuts with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -255,7 +281,7 @@
   enabled: false
   photo: /assets/img/menu/menu-sweet-and-sour-small.png
   price: €13
-  description: Mixed peppers, onions, pineapple, on a delectable sweet and sour sauce with your choice of protein. Side included.
+  description: Mixed peppers, onions, pineapple, on a delectable sweet and sour sauce with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -270,7 +296,7 @@
   enabled: true
   photo: /assets/img/menu/menu-green-curry-small.png
   price: €13
-  description: Fresh mixed peppers, onions, basil leaves, all simmered in a lively green curry sauce with your choice of protein. Sinde included.
+  description: Fresh mixed peppers, onions, basil leaves, all simmered in a lively green curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -285,7 +311,7 @@
   enabled: true
   photo: /assets/img/menu/menu-yellow-curry-small.png
   price: €13
-  description: Fresh mixed peppers, onions, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein. Sinde included.
+  description: Fresh mixed peppers, onions, potatoes, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -300,7 +326,7 @@
   enabled: true
   photo: /assets/img/menu/menu-red-curry-small.png
   price: €13
-  description: Fresh mixed peppers, onions, basil leaves, all simmered in a rich and aromatic red curry sauce with your choice of protein. Sinde included.
+  description: Fresh mixed vegetables, basil leaves, all simmered in a rich and aromatic red curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -311,11 +337,11 @@
     - gluten
     - milk
     - soya
-- name: Thai Masaman Curry
+- name: Thai Massaman Curry
   enabled: true
   photo: /assets/img/menu/menu-masaman-curry-small.png
   price: €13
-  description: This warming curry combines tender pieces of your chosen protein with potatoes and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Sinde included.
+  description: This warming curry combines tender pieces of your chosen protein with potatoes and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Side of your choice.
   protein:
     - beef
     - chicken
@@ -350,17 +376,19 @@
   allergens:
     - gluten
     - milk
-- name: Spicy Box
+- name: Spice Box
   enabled: true
   photo: /assets/img/menu/menu-spicy-box-small.png
   price: €9
-  description: Crispy chicken pieces, mixed peppers, and onions, all tossed in a fiery blend of spices for a taste sensation that will leave you craving more.
+  description: Crispy shredded chicken, mixed peppers, and onions, all tossed in a fiery blend of spices for a taste sensation that will leave you craving more.
   protein:
     - chicken
   allergens:
+    - celery
     - crustaceans
     - gluten
     - milk
+    - mustard
     - soya
     - sulphites
 - name: Hot Dog
@@ -374,11 +402,21 @@
     - gluten
     - milk
     - mustard
+- name: Chicken Nuggets
+  enabled: true
+  photo: /assets/img/menu/no-available2.png
+  price: €4
+  description: Chicken nuggets.
+  protein:
+    - chicken
+  allergens:
+    - celery
+    - gluten
 - name: Kids Meal
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €7
-  description: Nuggets or Chicken balls with chips and drink (Robinson, water or CapriSun).
+  description: Chicken nuggets with chips and drink (Robinson juice or water).
   protein:
     - chicken
   allergens:
@@ -400,23 +438,47 @@
   description: Golden crispy chips.
   protein:
   allergens:
+- name: Egg Fried Rice
+  enabled: true
+  photo: /assets/img/menu/no-available2.png
+  price: €3.5
+  description: Fried Jazmine rice with eggs.
+  protein:
+  allergens:
+    - eggs
+- name: Wheat Noodles
+  enabled: true
+  photo: /assets/img/menu/no-available2.png
+  price: €3
+  description: Boiled wheat thick noodles.
+  protein:
+  allergens:
+    - gluten
 - name: Satey Dip Sauce
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €2
-  description: Satey sauce made with peanuts.
+  description: Home-made Satey sauce with peanuts.
   protein:
   allergens:
-    - gluten
-    - milk
+    - crustaceans
     - peanuts
-    - soya
 - name: Chinese Curry Dip Sauce
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €2
-  description: Chinese curry sauce perfect for chips.
+  description: Home-made Chinese Curry Dip Sauce.
   protein:
   allergens:
     - celery
     - gluten
+    - mustard
+- name: Garlic Sauce
+  enabled: false
+  photo: /assets/img/menu/no-available2.png
+  price: €2
+  description: Garlic Dip Sauce.
+  protein:
+  allergens:
+    - eggs
+    - mustard
