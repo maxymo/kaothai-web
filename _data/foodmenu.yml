@@ -43,7 +43,7 @@
     - soya
 - name: Prawn crackers
   enabled: true
-  photo: /assets/img/menu/menu-spring-rolls-small.png
+  photo: /assets/img/menu/no-available2.png
   price: €3
   description: Authentic Thai prawn crackers.
   protein:
@@ -474,7 +474,7 @@
     - gluten
     - mustard
 - name: Garlic Sauce
-  enabled: false
+  enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €2
   description: Garlic Dip Sauce.
