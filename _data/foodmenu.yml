@@ -3,6 +3,7 @@
   enabled: true
   photo: /assets/img/menu/menu-singaporean-chicken-puffs-small.jpg
   price: €3.8
+  category: Starters
   description: Golden, flaky pastry filled with a savory blend of curry, potatoes, chicken, peas, corn and aromatic spices. Portion of 1
   protein:
     - chicken
@@ -18,6 +19,7 @@
   enabled: false
   photo: /assets/img/menu/menu-vietnamese-spring-rolls-small.png
   price: €7
+  category: Starters
   description: Filled with prawns, chicken, pork, cabbage, carrots and vermicelli noodles, seasoning  and served with a sweet chili dipping sauce. Portion of 2.
   protein:
   allergens:
@@ -32,6 +34,7 @@
   enabled: true
   photo: /assets/img/menu/menu-spring-rolls-small.png
   price: €6
+  category: Starters
   description: Our crispy spring rolls are filled with a tasty filling of cabbage, carrots and vermicelli noodles, seasoning  and served with a sweet chili dipping sauce. Portion of 3.
   protein:
   allergens:
@@ -45,6 +48,7 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €3
+  category: Starters
   description: Authentic Thai prawn crackers.
   protein:
   allergens:
@@ -53,6 +57,7 @@
   enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €6
+  category: Starters
   description: Savoury deep-fried pork dumplings, served with a side of irresistible sweet chili sauce. Portion of 5.
   protein:
     - pork
@@ -67,6 +72,7 @@
   enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €6
+  category: Starters
   description: Chicken satay, marinated in aromatic spices and served with a mouth-watering peanut dipping sauce.  Portion of 3.
   protein:
     - chicken
@@ -81,6 +87,7 @@
   enabled: false
   photo: /assets/img/menu/menu-khao-soi-curry-small.png
   price: €14.90
+  category: Main Dishes
   description: Northern Thai Curry with chicken drumstics and wheat noodles topped with fried wonton, shredded cabbage, coriander, shallots, red onions and beansprouts.
   protein:
     - chicken
@@ -94,6 +101,7 @@
   enabled: true
   photo: /assets/img/menu/menu-dumpling-soup-small.png
   price: €6
+  category: Soups
   description: Savoury broth with dumplings filled with seasoned chicken and vegetables, carrots, onions, spinach an garnished with coriander.
   protein:
     - chicken
@@ -108,6 +116,7 @@
   enabled: true
   photo: /assets/img/menu/menu-tom-ka-small.png
   price: €8
+  category: Soups
   description: Rich and aromatic coconut milk, galangal, lemongrass base soup, garnished with mixed peppers, mushrooms and coriander with the protein of your choice.
   protein:
     - beef
@@ -123,6 +132,7 @@
   enabled: true
   photo: /assets/img/menu/menu-tom-yum-small.png
   price: €8
+  category: Soups
   description: Hot and sour soup with base of galangal, lemongrass and kaffir lime leaves, garnished with mixed peppers, mushrooms and coriander with the protein of your choice.
   protein:
     - beef
@@ -138,6 +148,7 @@
   enabled: true
   photo: /assets/img/menu/menu-pad-thai-small.png
   price: €13
+  category: Main Dishes
   description: Stir-fry rice noodles with tangy tamarind sauce accompanied by eggs, beansprouts, spring onions, crushed peanuts and protein of choice.
   protein:
     - beef
@@ -153,10 +164,28 @@
     - peanuts
     - sesame
     - soya
+- name: GLUTEN-FREE Pad Thai
+  enabled: true
+  photo: /assets/img/menu/menu-pad-thai-small.png
+  price: €13
+  category: Gluten Free
+  description: Stir-fry rice noodles with tangy tamarind sauce accompanied by eggs, beansprouts, spring onions, crushed peanuts and protein of choice.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - eggs
+    - molluscs
+    - peanuts
+    - sesame
+    - soya
 - name: Pad Krapow
   enabled: true
   photo: /assets/img/menu/menu-pad-krapow-small.png
   price: €13
+  category: Main Dishes
   description: Mixed fresh vegetables stir-fried with fresh basil, all enveloped in a fiery yet balanced chili and garlic sauce with your choice of protein and fried egg on top.
   protein:
     - beef
@@ -172,10 +201,27 @@
     - molluscs
     - sesame
     - soya
+- name: GLUTEN-FREE Pad Krapow
+  enabled: true
+  photo: /assets/img/menu/menu-pad-krapow-small.png
+  price: €13
+  category: Gluten Free
+  description: Mixed fresh vegetables stir-fried with fresh basil, all enveloped in a fiery yet balanced chili and garlic sauce with your choice of protein and fried egg on top.
+  protein:
+    - beef
+    - chicken
+    - pork
+    - prawns
+  allergens:
+    - eggs
+    - molluscs
+    - sesame
+    - soya
 - name: Stir-fry Oyster Sauce
   enabled: true
   photo: /assets/img/menu/menu-stir-fry-oyster-small.png
   price: €13
+  category: Main Dishes
   description: Stir-fry fresh vegetables in delicious oyster sauce with your choice of protein and side.
   protein:
     - beef
@@ -189,10 +235,26 @@
     - molluscs
     - sesame
     - soya
+- name: GLUTEN-FREE Stir-fry Oyster Sauce
+  enabled: true
+  photo: /assets/img/menu/menu-stir-fry-oyster-small.png
+  price: €13
+  category: Gluten Free
+  description: Stir-fry fresh vegetables in delicious oyster sauce with your choice of protein and side.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - molluscs
+    - sesame
+    - soya
 - name: Stir-fry Noodles
   enabled: true
   photo: /assets/img/menu/menu-stir-fry-noodles-small.png
   price: €13
+  category: Main Dishes
   description: Wheat noodles with a colourful mix of fresh vegetables, all stir-fried together with your choice of protein and our special sauce.
   protein:
     - beef
@@ -211,6 +273,7 @@
   enabled: false
   photo: /assets/img/menu/menu-pad-see-ew-small.png
   price: €13
+  category: Main Dishes
   description: Stir-fried rice noodles, eggs, mixed peppers, spring onions, and beansprouts seasoned with garlic and rich black soy sauce with your choice of protein.
   protein:
     - beef
@@ -228,6 +291,7 @@
   enabled: false
   photo: /assets/img/menu/menu-pad-kae-mao-big-small.png
   price: €13
+  category: Main Dishes
   description: Wheat noodles with a colourful mix of fresh vegetables, chilli and sweet basil all stir-fried together with your choice of protein and our special sauce.
   protein:
     - beef
@@ -245,6 +309,7 @@
   enabled: true
   photo: /assets/img/menu/menu-stir-fry-cashews-small.png
   price: €13
+  category: Main Dishes
   description: Stir-Fry fresh vegetables combining crunchy cashew nuts with your choice of protein and side.
   protein:
     - beef
@@ -259,10 +324,27 @@
     - treenuts
     - sesame
     - soya
+- name: GLUTEN-FREE Stir Fry Cashews
+  enabled: true
+  photo: /assets/img/menu/menu-stir-fry-cashews-small.png
+  price: €13
+  category: Gluten Free
+  description: Stir-Fry fresh vegetables combining crunchy cashew nuts with your choice of protein and side.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - molluscs
+    - treenuts
+    - sesame
+    - soya
 - name: Thai Fried Rice
   enabled: true
   photo: /assets/img/menu/menu-fried-rice-small.png
   price: €13
+  category: Main Dishes
   description: Jasmine rice stir-fried with broccoli, carrots and onions, your choice of protein, and our special blend of seasonings garnished with spring onions.
   protein:
     - beef
@@ -277,10 +359,27 @@
     - molluscs
     - sesame
     - soya
+- name: GLUTEN-FREE Thai Fried Rice
+  enabled: true
+  photo: /assets/img/menu/menu-fried-rice-small.png
+  price: €13
+  category: Gluten Free
+  description: Jasmine rice stir-fried with broccoli, carrots and onions, your choice of protein, and our special blend of seasonings garnished with spring onions.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - eggs
+    - molluscs
+    - sesame
+    - soya
 - name: Sweet & Sour
   enabled: false
   photo: /assets/img/menu/menu-sweet-and-sour-small.png
   price: €13
+  category: Main Dishes
   description: Mixed peppers, onions, pineapple, on a delectable sweet and sour sauce with your choice of protein and side.
   protein:
     - beef
@@ -296,6 +395,7 @@
   enabled: true
   photo: /assets/img/menu/menu-green-curry-small.png
   price: €13
+  category: Main Dishes
   description: Fresh mixed peppers, onions, basil leaves, all simmered in a lively green curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
@@ -307,10 +407,24 @@
     - gluten
     - milk
     - soya
+- name: GLUTEN-FREE Thai Green Curry
+  enabled: true
+  photo: /assets/img/menu/menu-green-curry-small.png
+  price: €13
+  category: Gluten Free
+  description: Fresh mixed peppers, onions, basil leaves, all simmered in a lively green curry sauce and coconut milk with your choice of protein and side.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
 - name: Thai Yellow Curry
   enabled: true
   photo: /assets/img/menu/menu-yellow-curry-small.png
   price: €13
+  category: Main Dishes
   description: Fresh mixed peppers, onions, potatoes, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein and side.
   protein:
     - beef
@@ -322,10 +436,23 @@
     - gluten
     - milk
     - soya
+- name: GLUTEN-FREE Thai Yellow Curry
+  enabled: true
+  photo: /assets/img/menu/menu-yellow-curry-small.png
+  price: €13
+  category: Gluten Free
+  description: Fresh mixed peppers, onions, potatoes, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein and side.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
 - name: Thai Red Curry
   enabled: true
   photo: /assets/img/menu/menu-red-curry-small.png
   price: €13
+  category: Main Dishes
   description: Fresh mixed vegetables, basil leaves, all simmered in a rich and aromatic red curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
@@ -337,10 +464,24 @@
     - gluten
     - milk
     - soya
+- name: GLUTEN-FREE Thai Red Curry
+  enabled: true
+  photo: /assets/img/menu/menu-red-curry-small.png
+  price: €13
+  category: Gluten Free
+  description: Fresh mixed vegetables, basil leaves, all simmered in a rich and aromatic red curry sauce and coconut milk with your choice of protein and side.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
 - name: Thai Massaman Curry
   enabled: true
   photo: /assets/img/menu/menu-masaman-curry-small.png
   price: €13
+  category: Main Dishes
   description: This warming curry combines tender pieces of your chosen protein with potatoes and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Side of your choice.
   protein:
     - beef
@@ -352,10 +493,24 @@
     - gluten
     - milk
     - soya
+- name: GLUTEN-FREE Thai Massaman Curry
+  enabled: true
+  photo: /assets/img/menu/menu-masaman-curry-small.png
+  price: €13
+  category: Gluten Free
+  description: This warming curry combines tender pieces of your chosen protein with potatoes and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Side of your choice.
+  protein:
+    - beef
+    - chicken
+    - prawns
+    - veggies
+  allergens:
+    - crustaceans
 - name: Orange chicken & Chips
   enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €8
+  category: Irish
   description: Indulge in the delicious combination of crispy orange chicken paired with golden, crispy chips for a delightful fusion of flavors and textures.
   protein:
     - chicken
@@ -370,6 +525,7 @@
   enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €8
+  category: Irish
   description: Satisfy your cravings with our succulent chicken goujons served alongside crispy chips.
   protein:
     - chicken
@@ -380,6 +536,7 @@
   enabled: true
   photo: /assets/img/menu/menu-spicy-box-small.png
   price: €9
+  category: Irish
   description: Crispy shredded chicken, mixed peppers, and onions, all tossed in a fiery blend of spices for a taste sensation that will leave you craving more.
   protein:
     - chicken
@@ -395,6 +552,7 @@
   enabled: false
   photo: /assets/img/menu/menu-hotdog2-small.png
   price: €7
+  category: Irish
   description: 8.5 Inch Hot Dog topped with caramelised onions, cheddar cheese and bacon. Add drink and chips for €3
   protein:
     - pork
@@ -406,6 +564,7 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €4
+  category: Irish
   description: Chicken nuggets.
   protein:
     - chicken
@@ -416,6 +575,7 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €7
+  category: Irish
   description: Chicken nuggets with chips and drink (Robinson juice or water).
   protein:
     - chicken
@@ -426,6 +586,7 @@
   enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €8
+  category: Irish
   description: Experience a fiery kick with our spicy chicken tenders accompanied by crispy chips.
   protein:
     - chicken
@@ -435,14 +596,25 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €3
+  category: Sides
   description: Golden crispy chips.
   protein:
   allergens:
+- name: Thai Jasmine Rice
+  enabled: true
+  photo: /assets/img/menu/no-available2.png
+  price: €3
+  category: Sides
+  description: Steam Jazmine rice (Thai origin).
+  protein:
+  allergens:
+    - eggs
 - name: Egg Fried Rice
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €3.5
-  description: Fried Jazmine rice with eggs.
+  category: Sides
+  description: Fried Jasmine rice with eggs.
   protein:
   allergens:
     - eggs
@@ -450,6 +622,7 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €3
+  category: Sides
   description: Boiled wheat thick noodles.
   protein:
   allergens:
@@ -458,6 +631,7 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €2
+  category: Dip Sauces
   description: Home-made Satey sauce with peanuts.
   protein:
   allergens:
@@ -467,6 +641,7 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €2
+  category: Dip Sauces
   description: Home-made Chinese Curry Dip Sauce.
   protein:
   allergens:
@@ -477,6 +652,7 @@
   enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €2
+  category: Dip Sauces
   description: Garlic Dip Sauce.
   protein:
   allergens:

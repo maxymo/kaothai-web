@@ -139,3 +139,35 @@ body{
 #carouselHome {
     margin-top: 82px;
 }
+
+.hidden {
+    display: none !important;
+}
+
+.category-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.category-link {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.category-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.category-link.active {
+    background-color: #ef4823;
+    color: #000;
+}

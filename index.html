@@ -51,16 +51,22 @@ openHoursNote: ""
     </a>
 </div>
 
-
 <section id="menu" class="pt-5">
     <div class="container">
         <h1 class="my-5 text-center">Our Menu!</h1>
 
-        <div class="row">
+        <div class="text-center mb-4 category-links">
+            <a href="#" class="category-link" data-category="all">All</a>
+            {% assign categories = site.data.foodmenu | map: 'category' | uniq %}
+            {% for category in categories %}
+                <a href="#" class="category-link" data-category="{{ category }}">{{ category }}</a>
+            {% endfor %}
+        </div>
 
+        <div class="row">
             {% for item in site.data.foodmenu %}
                 {% if item.enabled == true %}
-                <div class="col-lg-4 d-flex align-items-stretch">
+                <div class="col-lg-4 d-flex align-items-stretch menu-item" data-category="{{ item.category }}">
                     <div class="card mb-3 text-bg-light border-1 border-dark card-link">
                         <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#detailModal-{{ forloop.index }}"></a>
                         <div class="card-body p-0 d-flex flex-column">
@@ -87,12 +93,14 @@ openHoursNote: ""
                             
                             <p class="mt-3">{{ item.description }}</p>
 
+                            {% if item.protein and item.protein.size > 0 %}
                             <div class="mt-3">
                                 <h6>Protein choices</h6>
                                 {% for protein in item.protein %}
                                     <img src="/assets/img/proteins/{{ protein | downcase }}.png" style="width: 50px;" class="mr-2" alt="{{ protein }}">
                                 {% endfor %}
                             </div>
+                            {% endif %}
                             
                             <div class="mt-3">
                                 <h6>Allergens</h6>
@@ -102,19 +110,42 @@ openHoursNote: ""
                                 <p class="text-muted mt-3">May contain: Cashew nuts, Crustaceans, Eggs, Gluten, Fish, Milk, Molluscs, Sesame seeds, Soybeans, Sulphur dioxide and sulphites, Peanuts</p>
                             </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <a href="/order" class="btn btn-primary" tabindex="-1" role="button">Order Online</a>
-                        </div>
                     </div>
                     </div>
                 </div>
                 {% endif %}
             {% endfor %}
-
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const categoryLinks = document.querySelectorAll('.category-link');
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        categoryLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const category = this.getAttribute('data-category');
+
+                // Remove active class from all links
+                categoryLinks.forEach(link => link.classList.remove('active'));
+
+                // Add active class to the clicked link
+                this.classList.add('active');
+
+                menuItems.forEach(item => {
+                    if (category === 'all' || item.getAttribute('data-category') === category) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    });
+</script>
 
 <section id="location" class="pt-5">
     <div class="container">
@@ -123,35 +154,6 @@ openHoursNote: ""
         <div class="container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2364.625355660536!2d-6.262033823068536!3d53.65365205168532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486711b7a6201567%3A0x34097dd2977ff156!2sKao%20Thai%20Food%20Truck!5e0!3m2!1sen!2sie!4v1713994401247!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-    </div>
-</section>
-
-<section id="hireus" class="pt-5">
-    <div class="container">
-
-        <h1 class="my-5 text-center">Hire Us!</h1>
-
-        <p>
-            Looking for a unique and flavorful catering option for your next event in Ireland? Look no further 
-            than Kao Thai our authentic Thai street food! Our skilled chef prepare fresh and 
-            delicious dishes using traditional recipes and ingredients straight from Thailand. 
-        </p>
-        <p>
-            Whether you're planning a birthday celebration, corporate event, or party, we offer a wide 
-            variety of menu options to satisfy all your guests' cravings. From savory noodle dishes 
-            to spicy curries and refreshing salads, our food is sure to impress and leave your guests 
-            asking for more.
-        </p>
-        <p>
-            So why settle for bland and boring catering when you can add a touch of excitement and 
-            adventure to your event with our mouthwatering Thai street food? 
-        </p>
-        <p>
-            <b>Contact us today to book our food truck for your next occasion!</b>
-        </p>
-
-        <a class="btn btn-primary" href="/events.html">Get Quote Online</a>
 
     </div>
 </section>
