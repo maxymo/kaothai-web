@@ -16,7 +16,7 @@
     - soya
     - sulphites
 - name: Pork & Prawns Stemed Wontons x4
-  enabled: false
+  enabled: true
   photo: /assets/img/menu/no-available2.png
   price: €7
   category: Starters
