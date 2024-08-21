@@ -15,6 +15,22 @@
     - sesame
     - soya
     - sulphites
+- name: Pork & Prawns Stemed Wontons x4
+  enabled: false
+  photo: /assets/img/menu/no-available2.png
+  price: €7
+  category: Starters
+  description: Delicate wonton wrappers filled with a savoury blend of seasoned pork and tender prawns. Portion of 4 wontons with dip soy sauce.
+  protein:
+    - chicken
+    - pork
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - sesame
+    - soya
 - name: Home-made Vietnamese Fried Spring Rolls x2
   enabled: false
   photo: /assets/img/menu/menu-vietnamese-spring-rolls-small.png
