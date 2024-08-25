@@ -61,7 +61,7 @@
     - sesame
     - soya
 - name: Prawn crackers
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €3
   category: Starters
