@@ -31,6 +31,19 @@
     - molluscs
     - sesame
     - soya
+- name: Tod Mun Kung x3
+  enabled: true
+  photo: /assets/img/menu/tod-mun-kung.png
+  price: €7
+  category: Starters
+  description: Crispy Thai-style prawn & pork cakes seasoned with herbs and spices, lightly fried to golden perfection and served with sweet chilli sauce. Portion of 3 pieces.
+  protein:
+    - prawns
+    - pork
+  allergens:
+    - crustaceans
+    - gluten
+    - soya
 - name: Home-made Vietnamese Fried Spring Rolls x2
   enabled: false
   photo: /assets/img/menu/menu-vietnamese-spring-rolls-small.png
