@@ -1,8 +1,8 @@
 #_data/foodmenu.yml
 - name: Singaporean Chicken Puff x1
-  enabled: false
+  enabled: true
   photo: /assets/img/menu/menu-singaporean-chicken-puffs-small.jpg
-  price: €3.8
+  price: €3.5
   category: Starters
   description: Golden, flaky pastry filled with a savory blend of curry, potatoes, chicken, peas, corn and aromatic spices. Portion of 1
   protein:
@@ -16,7 +16,7 @@
     - soya
     - sulphites
 - name: Pork & Prawns Stemed Wontons x4
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €7
   category: Starters
@@ -32,7 +32,7 @@
     - sesame
     - soya
 - name: Tod Mun Kung x3
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/tod-mun-kung.png
   price: €7
   category: Starters
