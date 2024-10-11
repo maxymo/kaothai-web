@@ -73,6 +73,33 @@
     - molluscs
     - sesame
     - soya
+- name: Home-made Chicken Spring Rolls x3
+  enabled: true
+  photo: /assets/img/menu/menu-spring-rolls-small.png
+  price: €7
+  category: Starters
+  description: Our crispy spring rolls are filled with a tasty filling of chicken, cabbage, carrots and vermicelli noodles, seasoning  and served with a sweet chili dipping sauce. Portion of 3.
+  protein:
+    - chicken
+  allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - sesame
+    - soya
+- name: Home-made Ham & CheeseSpring Rolls x3
+  enabled: true
+  photo: /assets/img/menu/no-available2.png
+  price: €6
+  category: Starters
+  description: Deep fried spring rolls filled with ham mozzarella and cheddar cheese
+  protein:
+    - pork
+  allergens:
+    - eggs
+    - gluten
+    - milk
 - name: Prawn crackers
   enabled: false
   photo: /assets/img/menu/no-available2.png
