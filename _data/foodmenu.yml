@@ -15,6 +15,41 @@
     - sesame
     - soya
     - sulphites
+- name: Chicken Curry Bun x1
+  enabled: true
+  photo: /assets/img/menu/japanese-curry-bun.png
+  price: €6
+  category: Starters
+  description: Home-made soft fluffy buns filled with chicken, curry and vegetables (potatoes, carrots, corn and peas) coated in panko breadcrumbs, deep fried with crispy crust. Portion of 1
+  protein:
+    - chicken
+  allergens:
+- name: Ham & Cheese Bun x1
+  enabled: true
+  photo: /assets/img/menu/ham-cheese-bun.png
+  price: €3.50
+  category: Starters
+  description: Home-made soft fluffy buns filled with ham, mozzarella and cheddar cheese, coated in panko breadcrumbs, deep fried with crispy crust. Portion of 1
+  protein:
+    - pork
+  allergens:
+- name: Cheese Balls x4
+  enabled: true
+  photo: /assets/img/menu/cheese-balls.png
+  price: €6
+  category: Starters
+  description: Home-made mashed potato balls filled with mozzarella cheese. Portion of 4 pieces. Portion of 4
+  protein:
+  allergens:
+- name: Fried Chicken (mini fillet) x3
+  enabled: true
+  photo: /assets/img/menu/mini-fillets-chicken.png
+  price: €6
+  category: Irish
+  description: Home-made mini-fillets chicken with house marinate and coat of breadcrumbs. Portion of 3 pieces.
+  protein:
+    - chicken
+  allergens:
 - name: Pork & Prawns Stemed Wontons x4
   enabled: false
   photo: /assets/img/menu/no-available2.png
