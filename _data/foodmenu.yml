@@ -24,6 +24,13 @@
   protein:
     - chicken
   allergens:
+    - crustaceans
+    - eggs
+    - gluten
+    - milk
+    - molluscs
+    - sesame
+    - soya
 - name: Ham & Cheese Bun x1
   enabled: true
   photo: /assets/img/menu/ham-cheese-bun.png
@@ -33,6 +40,9 @@
   protein:
     - pork
   allergens:
+    - eggs
+    - gluten
+    - milk
 - name: Cheese Balls x4
   enabled: true
   photo: /assets/img/menu/cheese-balls.png
@@ -41,6 +51,10 @@
   description: Home-made mashed potato balls filled with mozzarella cheese. Portion of 4 pieces. Portion of 4
   protein:
   allergens:
+    - eggs
+    - gluten
+    - milk
+    - sulphites
 - name: Fried Chicken (mini fillet) x3
   enabled: true
   photo: /assets/img/menu/mini-fillets-chicken.png
@@ -50,6 +64,12 @@
   protein:
     - chicken
   allergens:
+    - crustaceans
+    - gluten
+    - milk
+    - molluscs
+    - sesame
+    - soya
 - name: Pork & Prawns Stemed Wontons x4
   enabled: false
   photo: /assets/img/menu/no-available2.png
