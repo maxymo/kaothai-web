@@ -1,6 +1,6 @@
 #_data/foodmenu.yml
 - name: Singaporean Chicken Puff x1
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/menu-singaporean-chicken-puffs-small.jpg
   price: €3.5
   category: Starters
@@ -32,7 +32,7 @@
     - sesame
     - soya
 - name: Ham & Cheese Bun x1
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/ham-cheese-bun.png
   price: €3.50
   category: Starters
@@ -56,7 +56,7 @@
     - milk
     - sulphites
 - name: Fried Chicken (mini fillet) x3
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/mini-fillets-chicken.png
   price: €6
   category: Irish
