@@ -1,4 +1,4 @@
 #_data/general.yml
 
-alertOn: false
-alert: "MONDAY BANK HOLIDAY 28th OCTOBER WE ARE OPEN 13:00 - 20:00"
+alertOn: true
+alert: "Next week we will be CLOSED from Wednesday, 13 November to Sunday, 17 November. We apologize for any inconvenience caused"

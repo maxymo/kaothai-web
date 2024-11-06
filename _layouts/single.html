@@ -8,7 +8,11 @@
     {% include navbar.html %}
   </div>
 
-  <div style="margin-top: 90px;">
+  {% if site.data.general.alertOn == true %}
+  <div style="margin-top: 138px;">
+  {% else %} 
+  <div style="margin-top: 100px;"> 
+  {% endif %}
     {{ content }}
   </div>
 

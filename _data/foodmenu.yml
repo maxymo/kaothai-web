@@ -16,7 +16,7 @@
     - soya
     - sulphites
 - name: Chicken Curry Bun x1
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/japanese-curry-bun.png
   price: €6
   category: Starters
