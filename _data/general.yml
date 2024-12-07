@@ -1,4 +1,4 @@
 #_data/general.yml
 
-alertOn: false
-alert: "This week we are CLOSED from Wednesday, 13 November to Sunday, 17 November. We apologize for any inconvenience caused"
+alertOn: true
+alert: "Due to strong winds, today Saturday 7th Dec we open at 5pm. Apologise for the inconvenience."
