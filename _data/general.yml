@@ -1,4 +1,4 @@
 #_data/general.yml
 
-alertOn: false
-alert: "We will be CLOSED from Wednesday 25 to Sunday 5 January. We will be back on Wednesday 8 January."
+alertOn: true
+alert: "Due to storm, today Friday we will be opening at 4pm, subject to change"
