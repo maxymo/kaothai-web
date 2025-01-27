@@ -1,4 +1,4 @@
 #_data/general.yml
 
-alertOn: true
+alertOn: false
 alert: "Due to strong wind, today Sunday we will be opening at 3pm."
