@@ -44,7 +44,7 @@
     - gluten
     - milk
 - name: Cheese Balls x4
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/cheese-balls.png
   price: €6
   category: Starters
@@ -144,7 +144,7 @@
     - sesame
     - soya
 - name: Home-made Ham & CheeseSpring Rolls x3
-  enabled: true
+  enabled: false
   photo: /assets/img/menu/no-available2.png
   price: €6
   category: Starters
@@ -659,6 +659,22 @@
     - mustard
     - soya
     - sulphites
+- name: Spice Box w/ Chicken Wings & Dip
+  enabled: true
+  photo: /assets/img/menu/menu-spice-box-chicken-wings-dip.jpg
+  price: €14
+  category: Irish
+  description: Crispy shredded chicken, chicken wings, mixed peppers, and onions, all tossed in a fiery blend of spices for a taste sensation that will leave you craving more. Dip of your choice.
+  protein:
+    - chicken
+  allergens:
+    - celery
+    - crustaceans
+    - gluten
+    - milk
+    - mustard
+    - soya
+    - sulphites
 - name: Hot Dog
   enabled: false
   photo: /assets/img/menu/menu-hotdog2-small.png
@@ -769,3 +785,15 @@
   allergens:
     - eggs
     - mustard
+- name: White Sauce
+  enabled: true
+  photo: /assets/img/menu/no-available2.png
+  price: €2
+  category: Dip Sauces
+  description: White Dip Sauce.
+  protein:
+  allergens:
+    - eggs
+    - milk
+    - mustard
+    - sulphites
