@@ -333,7 +333,7 @@
   photo: /assets/img/menu/menu-stir-fry-oyster-small.png
   price: €13
   category: Main Dishes
-  description: Stir-fry fresh vegetables in delicious oyster sauce with your choice of protein and side.
+  description: Stir-fry fresh vegetables, sweet chillies in delicious oyster sauce with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -351,7 +351,7 @@
   photo: /assets/img/menu/menu-stir-fry-oyster-small.png
   price: €13
   category: Gluten Free
-  description: Stir-fry fresh vegetables in delicious oyster sauce with your choice of protein and side.
+  description: Stir-fry fresh vegetables, sweet chillies in delicious oyster sauce with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -366,7 +366,7 @@
   photo: /assets/img/menu/menu-stir-fry-noodles-small.png
   price: €13
   category: Main Dishes
-  description: Wheat noodles with a colourful mix of fresh vegetables, all stir-fried together with your choice of protein and our special sauce.
+  description: Wheat noodles with a colourful mix of fresh vegetables, sweet chillies, all stir-fried together with your choice of protein and our special sauce.
   protein:
     - beef
     - chicken
@@ -385,7 +385,7 @@
   photo: /assets/img/menu/menu-pad-see-ew-small.png
   price: €13
   category: Main Dishes
-  description: Stir-fried rice noodles, eggs, mixed peppers, spring onions, and beansprouts seasoned with garlic and rich black soy sauce with your choice of protein.
+  description: Stir-fried rice noodles, eggs, mixed peppers, sweet chillies, spring onions, and beansprouts seasoned with garlic and rich black soy sauce with your choice of protein.
   protein:
     - beef
     - chicken
@@ -421,7 +421,7 @@
   photo: /assets/img/menu/menu-stir-fry-cashews-small.png
   price: €13
   category: Main Dishes
-  description: Stir-Fry fresh vegetables combining crunchy cashew nuts with your choice of protein and side.
+  description: Stir-Fry fresh vegetables, sweet chillies combining crunchy cashew nuts with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -440,7 +440,7 @@
   photo: /assets/img/menu/no-available2.png
   price: €13
   category: Gluten Free
-  description: Stir-Fry fresh vegetables combining crunchy cashew nuts with your choice of protein and side.
+  description: Stir-Fry fresh vegetables, sweet chillies combining crunchy cashew nuts with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -456,7 +456,7 @@
   photo: /assets/img/menu/menu-fried-rice-small.png
   price: €13
   category: Main Dishes
-  description: Jasmine rice stir-fried with broccoli, carrots and onions, your choice of protein, and our special blend of seasonings garnished with spring onions.
+  description: Jasmine rice stir-fried with broccoli, sweet chillies, carrots and onions, your choice of protein, and our special blend of seasonings garnished with spring onions.
   protein:
     - beef
     - chicken
@@ -475,7 +475,7 @@
   photo: /assets/img/menu/menu-fried-rice-small.png
   price: €13
   category: Gluten Free
-  description: Jasmine rice stir-fried with broccoli, carrots and onions, your choice of protein, and our special blend of seasonings garnished with spring onions.
+  description: Jasmine rice stir-fried with broccoli, sweet chillies, carrots and onions, your choice of protein, and our special blend of seasonings garnished with spring onions.
   protein:
     - beef
     - chicken
@@ -507,7 +507,7 @@
   photo: /assets/img/menu/menu-green-curry-small.png
   price: €13
   category: Main Dishes
-  description: Fresh mixed peppers, onions, basil leaves, all simmered in a lively green curry sauce and coconut milk with your choice of protein and side.
+  description: Fresh mixed peppers, sweet chillies, onions, basil leaves, all simmered in a lively green curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -523,7 +523,7 @@
   photo: /assets/img/menu/menu-green-curry-small.png
   price: €13
   category: Gluten Free
-  description: Fresh mixed peppers, onions, basil leaves, all simmered in a lively green curry sauce and coconut milk with your choice of protein and side.
+  description: Fresh mixed peppers, sweet chillies, onions, basil leaves, all simmered in a lively green curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -536,7 +536,7 @@
   photo: /assets/img/menu/menu-yellow-curry-small.png
   price: €13
   category: Main Dishes
-  description: Fresh mixed peppers, onions, potatoes, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein and side.
+  description: Fresh mixed peppers, sweet chillies, onions, potatoes, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -552,7 +552,7 @@
   photo: /assets/img/menu/menu-yellow-curry-small.png
   price: €13
   category: Gluten Free
-  description: Fresh mixed peppers, onions, potatoes, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein and side.
+  description: Fresh mixed peppers, sweet chillies, onions, potatoes, basil leaves, all simmered in a creamy, fragrant yellow curry sauce with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -564,7 +564,7 @@
   photo: /assets/img/menu/menu-red-curry-small.png
   price: €13
   category: Main Dishes
-  description: Fresh mixed vegetables, basil leaves, all simmered in a rich and aromatic red curry sauce and coconut milk with your choice of protein and side.
+  description: Fresh mixed vegetables, sweet chillies, basil leaves, all simmered in a rich and aromatic red curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -580,7 +580,7 @@
   photo: /assets/img/menu/menu-red-curry-small.png
   price: €13
   category: Gluten Free
-  description: Fresh mixed vegetables, basil leaves, all simmered in a rich and aromatic red curry sauce and coconut milk with your choice of protein and side.
+  description: Fresh mixed vegetables, sweet chillies, basil leaves, all simmered in a rich and aromatic red curry sauce and coconut milk with your choice of protein and side.
   protein:
     - beef
     - chicken
@@ -593,7 +593,7 @@
   photo: /assets/img/menu/menu-masaman-curry-small.png
   price: €13
   category: Main Dishes
-  description: This warming curry combines tender pieces of your chosen protein with potatoes and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Side of your choice.
+  description: This warming curry combines tender pieces of your chosen protein with potatoes, sweet chillies and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Side of your choice.
   protein:
     - beef
     - chicken
@@ -609,7 +609,7 @@
   photo: /assets/img/menu/menu-masaman-curry-small.png
   price: €13
   category: Gluten Free
-  description: This warming curry combines tender pieces of your chosen protein with potatoes and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Side of your choice.
+  description: This warming curry combines tender pieces of your chosen protein with potatoes, sweet chillies and onions in a creamy coconut milk base, spiced with aromatic Massaman curry paste. Side of your choice.
   protein:
     - beef
     - chicken
@@ -664,7 +664,7 @@
   photo: /assets/img/menu/menu-spice-box-chicken-wings-dip.jpg
   price: €14
   category: Irish
-  description: Crispy shredded chicken, chicken wings, mixed peppers, and onions, all tossed in a fiery blend of spices for a taste sensation that will leave you craving more. Dip of your choice.
+  description: Crispy shredded chicken, chicken wings, mixed peppers, sweet chillies, and onions, all tossed in a fiery blend of spices for a taste sensation that will leave you craving more. Dip of your choice.
   protein:
     - chicken
   allergens:
