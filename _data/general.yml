@@ -1,4 +1,4 @@
 #_data/general.yml
 
-alertOn: true
+alertOn: false
 alert: "Today Monday 4 August we are OPEN"
